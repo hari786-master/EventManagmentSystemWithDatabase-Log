@@ -1,0 +1,191 @@
+2025-12-28 16:09:09,091 [MainController] INFO ====== Event Management System Started ======
+2025-12-28 16:09:09,092 [MainController] INFO Initialized MainController and loaded data
+2025-12-28 16:09:09,093 [MainController] DEBUG Displaying main menu
+2025-12-28 16:09:11,390 [MainController] DEBUG Displaying main menu
+2025-12-28 16:09:17,802 [MainController] INFO User selected Sign Up option
+2025-12-28 16:09:19,819 [MainController] WARN Name validation failed: q
+2025-12-28 16:09:23,657 [MainController] DEBUG Name validation passed: harii
+2025-12-28 16:09:25,719 [MainController] WARN Email validation failed: qedwsfg
+2025-12-28 16:09:31,193 [MainController] WARN Email already exists during signup: hari@gmail.com
+2025-12-28 16:09:31,194 [MainController] DEBUG Displaying main menu
+2025-12-28 16:09:40,074 [MainController] ERROR Invalid numeric input in main menu choice
+2025-12-28 16:09:40,075 [MainController] DEBUG Displaying main menu
+2025-12-28 16:09:43,261 [MainController] INFO User selected Sign In option
+2025-12-28 16:09:47,022 [MainController] DEBUG Login attempt for email: d
+2025-12-28 16:09:47,022 [MainController] WARN Login failed - user not found: d
+2025-12-28 16:09:47,023 [MainController] DEBUG Displaying main menu
+2025-12-28 16:27:03,692 [MainController] INFO ====== Event Management System Started ======
+2025-12-28 16:27:03,694 [MainController] INFO Initialized MainController and loaded data
+2025-12-28 16:27:03,694 [MainController] DEBUG Displaying main menu
+2025-12-28 16:27:04,041 [MainController] INFO User selected Sign In option
+2025-12-28 16:27:10,838 [MainController] DEBUG Login attempt for email: harii@gmail.com
+2025-12-28 16:27:14,875 [MainController] INFO User authentication successful: harii@gmail.com
+2025-12-28 16:27:14,876 [MainController] INFO User: hari Logined Sucessfully
+2025-12-28 16:27:19,777 [MainController] DEBUG Displaying main menu
+2025-12-28 16:27:39,995 [MainController] INFO User selected Sign Up option
+2025-12-28 16:27:41,849 [MainController] DEBUG Name validation passed: tets
+2025-12-28 16:27:48,537 [MainController] DEBUG Email validation passed: test@gmail.com
+2025-12-28 16:27:52,268 [MainController] DEBUG Password validation passed
+2025-12-28 16:27:53,793 [MainController] DEBUG Role selected: organizer
+2025-12-28 16:27:53,794 [MainController] INFO New account created successfully: tets (test@gmail.com) as organizer
+2025-12-28 16:27:53,817 [MainController] DEBUG User data written to database
+2025-12-28 16:27:53,817 [MainController] DEBUG Displaying main menu
+2025-12-28 16:27:55,163 [MainController] INFO User selected Sign In option
+2025-12-28 16:28:00,941 [MainController] DEBUG Login attempt for email: test@gmail.com
+2025-12-28 16:28:04,340 [MainController] INFO User authentication successful: test@gmail.com
+2025-12-28 16:28:04,340 [MainController] DEBUG Found organizer with ID: 18
+2025-12-28 16:28:04,341 [MainController] INFO Organizer: tets Logined Sucessfully
+2025-12-28 16:28:04,341 [MainController] TRACE tets Logined Sucessfully
+2025-12-28 16:28:04,341 [MainController] INFO Organizer menu accessed by: tets
+2025-12-28 16:28:04,341 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 16:28:06,923 [MainController] INFO Organizer tets accessing modify event menu
+2025-12-28 16:28:06,924 [MainController] WARN No events available to modify
+2025-12-28 16:28:06,924 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 16:28:20,652 [MainController] DEBUG Displaying main menu
+2025-12-28 17:32:27,117 [MainController] INFO ====== Event Management System Started ======
+2025-12-28 17:32:27,118 [MainController] INFO Initialized MainController and loaded data
+2025-12-28 17:32:27,118 [MainController] DEBUG Displaying main menu
+2025-12-28 17:32:28,002 [MainController] INFO User selected Sign In option
+2025-12-28 17:32:31,997 [MainController] DEBUG Login attempt for email: hari@gmail.ocm
+2025-12-28 17:32:31,997 [MainController] WARN Login failed - user not found: hari@gmail.ocm
+2025-12-28 17:32:31,998 [MainController] DEBUG Displaying main menu
+2025-12-28 17:32:33,373 [MainController] INFO User selected Sign In option
+2025-12-28 17:32:38,732 [MainController] DEBUG Login attempt for email: hari@gmail.com
+2025-12-28 17:32:40,928 [MainController] INFO User authentication successful: hari@gmail.com
+2025-12-28 17:32:40,929 [MainController] INFO User: hari Logined Sucessfully
+2025-12-28 17:32:40,929 [MainController] INFO User menu accessed by: hari
+2025-12-28 17:32:46,146 [MainController] INFO User 'hari' attempting to purchase tickets for event 'test' (Event ID: 31) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-28 17:33:03,201 [MainController] DEBUG User hari exiting event menu for organizer hari@zoho.com
+2025-12-28 17:33:08,313 [MainController] INFO User 'hari' attempting to purchase tickets for event 'a' (Event ID: 35) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-28 18:00:42,920 [MainController] DEBUG User hari exiting event menu for organizer hari@zoho.com
+2025-12-28 18:00:45,230 [MainController] DEBUG Displaying main menu
+2025-12-28 18:01:06,314 [MainController] INFO ====== Event Management System Started ======
+2025-12-28 18:01:06,316 [MainController] INFO Initialized MainController and loaded data
+2025-12-28 18:01:06,316 [MainController] DEBUG Displaying main menu
+2025-12-28 18:01:06,580 [MainController] INFO User selected Sign In option
+2025-12-28 18:01:10,752 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-28 18:01:14,267 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-28 18:01:14,267 [MainController] DEBUG Found organizer with ID: 14
+2025-12-28 18:01:14,268 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-28 18:01:14,268 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-28 18:01:14,268 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-28 18:01:14,268 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 18:01:15,662 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 18:01:15,663 [MainController] DEBUG Event count: 7
+2025-12-28 18:01:15,683 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 18:01:15,683 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 18:01:19,905 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-28 18:01:21,860 [MainController] DEBUG Event selected for modification: 3
+2025-12-28 18:01:25,054 [MainController] ERROR Organizer Selected Invalid Input In Booth operation
+2025-12-28 18:01:28,871 [MainController] ERROR Organizer Selected Invalid Input In Booth operation
+2025-12-28 18:01:30,517 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 18:01:37,357 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-28 18:01:39,011 [MainController] DEBUG Event selected for modification: 4
+2025-12-28 18:01:41,980 [MainController] DEBUG Organizer selected sponsor operations
+2025-12-28 18:01:44,489 [MainController] TRACE Viewing All Sponsor
+2025-12-28 18:01:44,492 [MainController] INFO Viewed All Sponsors
+2025-12-28 18:01:49,276 [MainController] INFO Adding sponsor to event
+2025-12-28 18:01:56,769 [MainController] INFO Sponsor 'hari' added with amount $100.0
+2025-12-28 18:02:22,965 [MainController] TRACE Viewing All Sponsor
+2025-12-28 18:02:22,967 [MainController] INFO Viewed All Sponsors
+2025-12-28 18:02:32,884 [MainController] DEBUG Organizer selected session operations
+2025-12-28 18:02:38,796 [MainController] INFO Viewing All Sessions
+2025-12-28 18:02:38,798 [MainController] INFO Viewed All Sessions
+2025-12-28 18:02:40,563 [MainController] INFO Viewing All Sessions
+2025-12-28 18:02:40,563 [MainController] INFO Viewed All Sessions
+2025-12-28 18:02:43,884 [MainController] INFO Updating existing session
+2025-12-28 18:02:49,988 [MainController] INFO Deleting session from event
+2025-12-28 18:03:02,026 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 18:03:03,474 [MainController] DEBUG Displaying main menu
+2025-12-28 18:03:04,991 [MainController] INFO User selected Exit option - Application shutting down
+2025-12-28 18:03:04,995 [MainController] INFO Database connection closed successfully
+2025-12-28 18:03:04,996 [MainController] INFO ====== Event Management System Shutdown ======
+2025-12-28 19:01:10,041 [MainController] INFO ====== Event Management System Started ======
+2025-12-28 19:01:10,042 [MainController] INFO Initialized MainController and loaded data
+2025-12-28 19:01:10,042 [MainController] DEBUG Displaying main menu
+2025-12-28 19:01:12,623 [MainController] INFO User selected Sign In option
+2025-12-28 19:01:16,001 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-28 19:01:18,458 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-28 19:01:18,458 [MainController] DEBUG Found organizer with ID: 14
+2025-12-28 19:01:18,458 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-28 19:01:18,458 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-28 19:01:18,458 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-28 19:01:18,458 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:19,677 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:01:19,677 [MainController] DEBUG Event count: 6
+2025-12-28 19:01:19,695 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:01:19,695 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:19,953 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:01:19,954 [MainController] DEBUG Event count: 6
+2025-12-28 19:01:19,957 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:01:19,957 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:20,177 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:01:20,177 [MainController] DEBUG Event count: 6
+2025-12-28 19:01:20,179 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:01:20,179 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:20,401 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:01:20,402 [MainController] DEBUG Event count: 6
+2025-12-28 19:01:20,404 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:01:20,404 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:20,625 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:01:20,625 [MainController] DEBUG Event count: 6
+2025-12-28 19:01:20,627 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:01:20,627 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:20,849 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:01:20,849 [MainController] DEBUG Event count: 6
+2025-12-28 19:01:20,852 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:01:20,852 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:21,076 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:01:21,076 [MainController] DEBUG Event count: 6
+2025-12-28 19:01:21,079 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:01:21,079 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:21,301 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:01:21,301 [MainController] DEBUG Event count: 6
+2025-12-28 19:01:21,303 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:01:21,303 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:22,552 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-28 19:01:23,873 [MainController] DEBUG Event selected for modification: 2
+2025-12-28 19:01:25,562 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:01:26,957 [MainController] DEBUG Displaying main menu
+2025-12-28 19:01:28,415 [MainController] INFO User selected Exit option - Application shutting down
+2025-12-28 19:01:28,420 [MainController] INFO Database connection closed successfully
+2025-12-28 19:01:28,420 [MainController] INFO ====== Event Management System Shutdown ======
+2025-12-28 19:48:08,568 [MainController] INFO ====== Event Management System Started ======
+2025-12-28 19:48:08,570 [MainController] INFO Initialized MainController and loaded data
+2025-12-28 19:48:08,570 [MainController] DEBUG Displaying main menu
+2025-12-28 19:48:32,593 [MainController] INFO ====== Event Management System Started ======
+2025-12-28 19:48:32,595 [MainController] INFO Initialized MainController and loaded data
+2025-12-28 19:48:32,595 [MainController] DEBUG Displaying main menu
+2025-12-28 19:50:23,277 [MainController] INFO ====== Event Management System Started ======
+2025-12-28 19:50:23,279 [MainController] INFO Initialized MainController and loaded data
+2025-12-28 19:50:23,279 [MainController] DEBUG Displaying main menu
+2025-12-28 19:50:24,509 [MainController] INFO User selected Sign In option
+2025-12-28 19:50:32,277 [MainController] DEBUG Login attempt for email: hari@gmail.com
+2025-12-28 19:50:34,827 [MainController] INFO User authentication successful: hari@gmail.com
+2025-12-28 19:50:34,827 [MainController] INFO User: hari Logined Sucessfully
+2025-12-28 19:50:34,827 [MainController] INFO User menu accessed by: hari
+2025-12-28 19:50:34,829 [MainController] DEBUG User hari viewing organizer list
+2025-12-28 19:50:35,943 [MainController] DEBUG User entered organizer choice: 1
+2025-12-28 19:50:35,943 [MainController] INFO User hari selected organizer: hari@zoho.com (Org ID: 14)
+2025-12-28 19:50:37,556 [MainController] DEBUG User entered event number: 2
+2025-12-28 19:50:37,556 [MainController] INFO User hari selected event: 'q' (Event ID: 33)
+2025-12-28 19:50:38,407 [MainController] TRACE User 'hari' viewing sessions for event 'q' (Event ID: 33) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-28 19:51:08,513 [MainController] DEBUG User hari exiting event menu for organizer hari@zoho.com
+2025-12-28 19:51:08,515 [MainController] DEBUG User hari viewing organizer list
+2025-12-28 19:51:16,229 [MainController] DEBUG User entered organizer choice: 2
+2025-12-28 19:51:16,230 [MainController] INFO User hari selected organizer: tets (Org ID: 18)
+2025-12-28 19:51:18,419 [MainController] DEBUG User entered event number: 0
+2025-12-28 19:51:18,419 [MainController] DEBUG User returning to organizer selection
+2025-12-28 19:51:18,419 [MainController] DEBUG Displaying main menu
+2025-12-28 19:51:19,360 [MainController] INFO User selected Sign In option
+2025-12-28 19:51:25,854 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-28 19:51:28,118 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-28 19:51:28,118 [MainController] DEBUG Found organizer with ID: 14
+2025-12-28 19:51:28,118 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-28 19:51:28,119 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-28 19:51:28,119 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-28 19:51:28,119 [MainController] DEBUG Displaying organizer menu options
+2025-12-28 19:51:36,927 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-28 19:51:36,927 [MainController] DEBUG Event count: 6
+2025-12-28 19:51:36,930 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-28 19:51:36,930 [MainController] DEBUG Displaying organizer menu options
