@@ -1,17 +1,16 @@
-import java.io.Serializable;
+import com.mysql.cj.protocol.a.SqlDateValueEncoder;
+
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-class Event implements Serializable {
-    private static final long serialVersionUID = 2L;
+class Event   {
     String name;
     double budget;
     String category;
     Venue venue;
     LocalDate date;
     int event_ID;
-    // static int EventNumber = 1;
     ArrayList<User> users;
     ArrayList<Session> schedule;
     ArrayList<Sponsor> sponsors;
@@ -137,7 +136,6 @@ class Event implements Serializable {
         if (rs.next()) {
             this.setEventId(rs.getInt(1));
         }
-        con.close();
         for (int i = 0; i < this.venue.capacity; i++) {
             this.ticketsSold.add(new Ticket(this.name, this.category, 0));
         }
@@ -167,4 +165,43 @@ class Event implements Serializable {
         updateQuery.executeUpdate();
     }
 
+    void updateEventNameDb() throws SQLException{
+        Connection con = DbConnection.getConnection();
+        PreparedStatement updateNameQuery = con.prepareStatement(Data.UPDATE_EVENT_NAME_QUERY);
+        updateNameQuery.setString(1,this.name);
+        updateNameQuery.setInt(2,this.event_ID);
+        updateNameQuery.executeUpdate();
+    }
+
+    void updateEventCategoryDb() throws SQLException{
+        Connection con = DbConnection.getConnection();
+        PreparedStatement updateNameQuery = con.prepareStatement(Data.UPDATE_EVENT_CATEGORY_QUERY);
+        updateNameQuery.setString(1,this.category);
+        updateNameQuery.setInt(2,this.event_ID);
+        updateNameQuery.executeUpdate();
+    }
+
+    void updateEventLocationDb() throws SQLException{
+        Connection con = DbConnection.getConnection();
+        PreparedStatement updateNameQuery = con.prepareStatement(Data.UPDATE_EVENT_LOCATION_QUERY);
+        updateNameQuery.setString(1,this.venue.name);
+        updateNameQuery.setInt(2,this.event_ID);
+        updateNameQuery.executeUpdate();
+    }
+
+    void updateEventDateDb() throws SQLException{
+        Connection con = DbConnection.getConnection();
+        PreparedStatement updateNameQuery = con.prepareStatement(Data.UPDATE_EVENT_DATE_QUERY);
+        updateNameQuery.setDate(1, Date.valueOf(this.date));
+        updateNameQuery.setInt(2,this.event_ID);
+        updateNameQuery.executeUpdate();
+    }
+
+    void updateEventBudgetDb() throws SQLException{
+        Connection con = DbConnection.getConnection();
+        PreparedStatement updateNameQuery = con.prepareStatement(Data.UPDATE_EVENT_BUDGET_QUERY);
+        updateNameQuery.setDouble(1, this.budget);
+        updateNameQuery.setInt(2,this.event_ID);
+        updateNameQuery.executeUpdate();
+    }
 }

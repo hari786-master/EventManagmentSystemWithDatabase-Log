@@ -5,11 +5,9 @@ import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+import org.mindrot.jbcrypt.BCrypt;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import static com.mysql.cj.conf.PropertyKey.logger;
 
 public class MainController {
     private static final Logger log = LogManager.getLogger(MainController.class);
@@ -18,11 +16,13 @@ public class MainController {
     int userIndex;
     int orgIndex;
 
+
     public static void main(String[] args) throws SQLException {
         Scanner input = new Scanner(System.in);
         MainController controller = new MainController();
         controller.readUser(controller);
         Logger logger = LogManager.getLogger();
+
 
         //log
         logger.info("====== Event Management System Started ======");
@@ -80,12 +80,12 @@ public class MainController {
                         System.out.print("Enter Your Password: ");
 //                        char c[] = System.console().readPassword();
                         String pas = input.nextLine();
-                        String password = "";
-                        for (char ch : pas.toCharArray()) {
-                            password += (ch + 1);
-                        }
+//                        String password = ;
+//                        for (char ch : pas.toCharArray()) {
+//                            password += (ch + 1);
+//                        }
 //                        String password = new String(pas);
-                        if (u.password.equals(password)) {
+                        if (BCrypt.checkpw(pas,u.password)) {
                             isValidUser = true;
                             //log
                             logger.info("User authentication successful: {}", email);
@@ -211,10 +211,11 @@ public class MainController {
                 // else if (role.equals("user"))
                 // roleChoice = 2;
 
-                String pass = "";
-                for (char ch : password.toCharArray()) {
-                    pass += (ch + 1);
-                }
+                String pass = BCrypt.hashpw(password,BCrypt.gensalt(10));
+//                for (char ch : password.toCharArray()) {
+//                    pass += (ch + 1);
+//                }
+
                 User user = new User(name, email, pass, role);
                 controller.users.add(user);
                 //log
@@ -288,15 +289,15 @@ public class MainController {
                                 controller.organizer.get(controller.orgIndex).name);
                         logger.trace("Organizer Started Creating Event...");
                         input.nextLine();
-                        System.out.print("Enter the Event Name: ");
-                        String eventName = input.nextLine();
+//                        System.out.print("Enter the Event Name: ");
+                        String eventName = controller.isEmptyCheck("Enter the Event Name: ");
+
+
                         //log
                         logger.debug("Event name entered: {}", eventName);
-                        System.out.print("Enter The Location: ");
-                        String location = input.nextLine();
+                        String location = controller.isEmptyCheck("Enter The Location: ");
                         //log
                         logger.debug("Event Location entered: {}", location);
-                        System.out.print("Enter The Location: ");
                         double budget = 0;
                         while (true) {
                             try {
@@ -314,8 +315,7 @@ public class MainController {
                             }
                         }
                         input.nextLine();
-                        System.out.print("Enter The Category: ");
-                        String category = input.nextLine();
+                        String category = controller.isEmptyCheck("Enter The Category: ");
                         //log
                         logger.debug("Event Category entered: {}", category);
                         int capacity = 0;
@@ -335,26 +335,7 @@ public class MainController {
                                 continue;
                             }
                         }
-                        while (true) {
-                            System.out.print("Enter event date (yyyy-mm-dd): ");
-                            String date = input.nextLine();
-                            try {
-                                dateInput = LocalDate.parse(date);
-                                if (!dateInput.isAfter(LocalDate.now())) {
-                                    //log
-                                    logger.warn("Past date entered for event: {}", date);
-                                    System.out.println("Date cannot be in the past. Please enter a future date.");
-                                } else {
-                                    //log
-                                    logger.debug("Event date validated: {}", dateInput);
-                                    break;
-                                }
-                            } catch (DateTimeParseException e) {
-                                //log
-                                logger.error("Invalid date format entered: {}", date);
-                                System.out.println("Enter a valid date (format: yyyy-MM-dd)");
-                            }
-                        }
+                        dateInput = controller.isValidDate(logger);
                         Venue venue = new Venue(location, capacity);
                         Event event = new Event(eventName, budget, venue, category, dateInput);
                         controller.addEvents(event);
@@ -426,7 +407,8 @@ public class MainController {
                                 System.out.println("                                               │      \u001B[35m4. Sponsor          \u001B[33m\u001B[1m│");
                                 System.out.println("                                               │      \u001B[36m5. Expense          \u001B[33m\u001B[1m│");
                                 System.out.println("                                               │      \u001B[37m6. Tickets          \u001B[33m\u001B[1m│");
-                                System.out.println("                                               │      \u001B[31m7. Back             \u001B[33m\u001B[1m│");
+                                System.out.println("                                               │      \u001B[34m7. Update Event     \u001B[33m\u001B[1m│");
+                                System.out.println("                                               │      \u001B[31m8. Back             \u001B[33m\u001B[1m│");
                                 System.out.println("                                               │                          │");
                                 System.out.println("                                               ╰──────────────────────────╯\u001B[0m");
                                 System.out.print("Enter Your Choice: ");
@@ -482,8 +464,8 @@ public class MainController {
                                             input.nextLine();
                                             double size = 0;
                                             double cost = 0;
-                                            System.out.print("Enter The Booth Name: ");
-                                            String boothName = input.nextLine();
+
+                                            String boothName = controller.isEmptyCheck("Enter The Booth Name: ");
                                             while (true) {
                                                 try {
                                                     System.out.print("Enter The Booth Size in Square Feet: ");
@@ -795,8 +777,7 @@ public class MainController {
                                         DecimalFormat df = new DecimalFormat("0.00");
                                         par:
                                         while (true) {
-                                            System.out.print("Enter The Program : ");
-                                            String session = input.nextLine().trim();
+                                            String session = controller.isEmptyCheck("Enter The Program : ");
 
                                             while (true) {
                                                 try {
@@ -843,10 +824,10 @@ public class MainController {
 
                                             while (true) {
                                                 System.out.print("\nDo You Want To Add Extra Program(y/n): ");
-                                                char yesOrNo = input.nextLine().toLowerCase().charAt(0);
-                                                if (yesOrNo == 'y')
+                                                String yesOrNo = input.nextLine().trim().toLowerCase();
+                                                if (yesOrNo.equals("y") || yesOrNo.equals("yes"))
                                                     continue par;
-                                                else if (yesOrNo == 'n') {
+                                                else if (yesOrNo.equals("n") || yesOrNo.equals("no")) {
                                                     System.out.println(
                                                             "\u001B[92m\u001B[1m" +
                                                                     "╭────────────────────────────────────╮\n" +
@@ -927,8 +908,7 @@ public class MainController {
                                         }
 
                                         if (updateChoice == 1 || updateChoice == 3) {
-                                            System.out.print("Enter new topic name: ");
-                                            String newTopic = input.nextLine().trim();
+                                            String newTopic = controller.isEmptyCheck("Enter new topic name: ");
                                             if (!newTopic.isEmpty()) {
                                                 selectedSession.topic = newTopic;
                                                 selectedSession.updateSessionhDb();
@@ -1015,9 +995,9 @@ public class MainController {
 
                                                 } catch (Exception e) {
                                                     System.out.println(
-                                                            "\u001B[91m╭────────────────────────────────────╮\n" +
+                                                            "\u001B[91m╭──────────────────────────────────────────╮\n" +
                                                                     "│ Invalid input. Please enter a valid time │\n" +
-                                                                    "╰────────────────────────────────────╯\u001B[0m");
+                                                                    "╰──────────────────────────────────────────╯\u001B[0m");
 
                                                 }
                                             }
@@ -1198,8 +1178,7 @@ public class MainController {
                                         while (true) {
 
                                             input.nextLine();
-                                            System.out.print("Enter The Speaker Name: ");
-                                            String speakerName = input.nextLine();
+                                            String speakerName = controller.isEmptyCheck("Enter The Speaker Name: ");
                                             String gender = "";
 
                                             while (true) {
@@ -1314,8 +1293,7 @@ public class MainController {
                                             }
 
                                             input.nextLine();
-                                            System.out.print("Enter New Speaker Name: ");
-                                            String speakerName = input.nextLine();
+                                            String speakerName = controller.isEmptyCheck("Enter New Speaker Name: ");
 
                                             String gender = "";
                                             while (true) {
@@ -1467,8 +1445,7 @@ public class MainController {
                                         //log
                                         logger.info("Adding sponsor to event");
                                         input.nextLine();
-                                        System.out.print("Enter The Company Name: ");
-                                        String companyName = input.nextLine();
+                                        String companyName = controller.isEmptyCheck("Enter The Company Name: ");
                                         double amountSponsor = 0;
                                         while (true) {
                                             try {
@@ -1680,8 +1657,7 @@ public class MainController {
                                         input.nextLine();
                                         // log
                                         logger.info("Adding expense to event");
-                                        System.out.print("Enter The Description: ");
-                                        String description = input.nextLine();
+                                        String description = controller.isEmptyCheck("Enter The Description: ");
                                         while (true) {
                                             try {
                                                 System.out.print("Enter The Expenses : ");
@@ -1734,7 +1710,7 @@ public class MainController {
                                             input.nextLine();
 
                                             Expense expenseToUpdate = expenses.get(expNumber - 1);
-
+                                            System.out.println("Leave blank To keep the same");
                                             System.out.print("Enter New Description (Current: "
                                                     + expenseToUpdate.description + "): ");
                                             String newDescription = input.nextLine();
@@ -1856,7 +1832,7 @@ public class MainController {
                                     System.out.println("                                               │   \u001B[32m1. Available Tickets\u001B[33m\u001B[1m   │");
                                     System.out.println("                                               │   \u001B[34m2. Update Price     \u001B[33m\u001B[1m   │");
                                     System.out.println("                                               │   \u001B[35m3. Update Count     \u001B[33m\u001B[1m   │");
-                                    System.out.println("                                               │   \u001B[30m4. View Price       \u001B[33m\u001B[1m   │");
+                                    System.out.println("                                               │   \u001B[33m4. View Price       \u001B[33m\u001B[1m   │");
                                     System.out.println("                                               │   \u001B[31m5. Back             \u001B[33m\u001B[1m   │");
                                     System.out.println("                                               │                          │");
                                     System.out.println("                                               ╰──────────────────────────╯\u001B[0m");
@@ -1939,9 +1915,10 @@ public class MainController {
                                         }
                                         controller.organizer.get(controller.orgIndex).events
                                                 .get(eventNumber - 1).venue.capacity = updateCount;
+                                        double price = currentEvent.ticketsSold.get(0).price;
                                         currentEvent.ticketsSold.clear();
                                         for (int i = 0; i < updateCount; i++) {
-                                            currentEvent.ticketsSold.add(new Ticket(currentEvent.name, currentEvent.category, rate));
+                                            currentEvent.ticketsSold.add(new Ticket(currentEvent.name, currentEvent.category, price));
                                         }
                                         currentEvent.reduceTicketCount();
                                         //log
@@ -1978,8 +1955,80 @@ public class MainController {
                                     }
                                 }
 
-                            } else {
+                            } else if (eventChoice == 7) {
+                                while (true) {
+                                    System.out.println("\u001B[33m\u001B[1m                                               ╭──────────────────────────╮");
+                                    System.out.println("                                               │                          │");
+                                    System.out.println("                                               │   \u001B[32m1. Change Name         \u001B[33m\u001B[1m│");
+                                    System.out.println("                                               │   \u001B[34m2. Change Category     \u001B[33m\u001B[1m│");
+                                    System.out.println("                                               │   \u001B[35m3. Change Location     \u001B[33m\u001B[1m│");
+                                    System.out.println("                                               │   \u001B[32m4. Change Date         \u001B[33m\u001B[1m│");
+                                    System.out.println("                                               │   \u001B[36m5. Change Budget       \u001B[33m\u001B[1m│");
+                                    System.out.println("                                               │   \u001B[31m6. Back                \u001B[33m\u001B[1m│");
+                                    System.out.println("                                               │                          │");
+                                    System.out.println("                                               ╰──────────────────────────╯\u001B[0m");
+                                    int changeChoice = controller.isValidInteger("Enter Your Choice: ", 1000000);
+                                    Event selectedEvent = controller.organizer.get(controller.orgIndex).events.get(eventNumber - 1);
+                                    if (changeChoice == 1) {
+                                        String msg = "Enter The New Name ( " + selectedEvent.name + " ): ";
+                                        selectedEvent.name = controller.isEmptyCheck(msg);
+                                        selectedEvent.updateEventNameDb();
+                                        System.out.println(
+                                                "\u001B[92m\u001B[1m" +
+                                                        "╭────────────────────────────────────────╮\n" +
+                                                        "│   Event Name Updated Successfully      │\n" +
+                                                        "╰────────────────────────────────────────╯" +
+                                                        "\u001B[0m");
+                                    } else if (changeChoice == 2) {
+                                        String msg = "Enter The New Category ( " + selectedEvent.category + " ): ";
+                                        selectedEvent.category = controller.isEmptyCheck(msg);
+                                        selectedEvent.updateEventCategoryDb();
+                                        System.out.println(
+                                                "\u001B[92m\u001B[1m" +
+                                                        "╭────────────────────────────────────────╮\n" +
+                                                        "│   Event Category Updated Successfully  │\n" +
+                                                        "╰────────────────────────────────────────╯" +
+                                                        "\u001B[0m");
+                                    } else if (changeChoice == 3) {
+                                        String msg = "Enter The New Location ( " + selectedEvent.venue.name + " ): ";
+                                        selectedEvent.venue.name = controller.isEmptyCheck(msg);
+                                        selectedEvent.updateEventLocationDb();
+                                        System.out.println(
+                                                "\u001B[92m\u001B[1m" +
+                                                        "╭────────────────────────────────────────╮\n" +
+                                                        "│   Event Location Updated Successfully  │\n" +
+                                                        "╰────────────────────────────────────────╯" +
+                                                        "\u001B[0m");
+                                    } else if (changeChoice == 4) {
+                                        LocalDate date = controller.isValidDate(logger);
+                                        selectedEvent.date = date;
+                                        selectedEvent.updateEventDateDb();
+                                        System.out.println(
+                                                "\u001B[92m\u001B[1m" +
+                                                        "╭────────────────────────────────────────╮\n" +
+                                                        "│   Event Date Updated Successfully      │\n" +
+                                                        "╰────────────────────────────────────────╯" +
+                                                        "\u001B[0m");
+                                    } else if (changeChoice == 5) {
+                                        int budget = controller.isValidInteger("Enter The New Budget : ", 100000000000000000000000000.0);
+                                        selectedEvent.budget = budget;
+                                        selectedEvent.updateEventBudgetDb();
+                                        System.out.println(
+                                                "\u001B[92m\u001B[1m" +
+                                                        "╭────────────────────────────────────────╮\n" +
+                                                        "│   Event Budget Updated Successfully    │\n" +
+                                                        "╰────────────────────────────────────────╯" +
+                                                        "\u001B[0m");
+                                    } else if (changeChoice == 6) {
+                                        break;
+                                    } else {
+                                        System.out.println("\u001B[91mInvalid input.\u001B[0m\n");
+                                    }
+                                }
+                            } else if (eventChoice == 8) {
                                 break;
+                            } else {
+                                System.out.println("\u001B[91mInvalid input.\u001B[0m\n");
                             }
                         }
                     } else if (choice == 4) {
@@ -2033,10 +2082,10 @@ public class MainController {
                                                     "╰────────────────────────────────────────────────────────╯" +
                                                     "\u001B[0m");
 
-                                    org.events.remove(deleteEventIndex - 1);
+                                    Event removerdEvent = org.events.remove(deleteEventIndex - 1);
                                     //log
                                     logger.warn("Event '{}' removed from memory",
-                                            org.events.get(deleteEventIndex - 1).name);
+                                            removerdEvent.name);
                                     break;
                                 } else {
                                     //log
@@ -2571,5 +2620,62 @@ public class MainController {
         }
     }
 
+    Scanner input = new Scanner(System.in);
 
+    String isEmptyCheck(String msg) {
+        while (true) {
+            System.out.print(msg);
+            String value = input.nextLine();
+            if (value.trim().isEmpty()) {
+                System.out.println("\u001B[91mInvalid Input\n\u001B[0m");
+                continue;
+            }
+            return value.trim();
+        }
+    }
+
+    int isValidInteger(String msg, double range) {
+        int i;
+        while (true) {
+            try {
+                System.out.print(msg);
+                i = input.nextInt();
+
+                if (i >= 1 && i <= range) {
+                    input.nextLine();
+                    return i;
+                } else {
+                    System.out.println("Invalid Input. Enter a number between 1 and " + range);
+                }
+
+            } catch (Exception e) {
+                input.nextLine();
+                System.out.println("Invalid Input. Enter a valid integer.");
+            }
+        }
+    }
+
+    LocalDate isValidDate(Logger logger) {
+        LocalDate dateInput = null;
+        while (true) {
+            System.out.print("Enter event date (yyyy-mm-dd): ");
+            String date = input.nextLine();
+            try {
+                dateInput = LocalDate.parse(date);
+                if (!dateInput.isAfter(LocalDate.now())) {
+                    //log
+                    logger.warn("Past date entered for event: {}", date);
+                    System.out.println("Date cannot be in the past. Please enter a future date.");
+                } else {
+                    //log
+                    logger.debug("Event date validated: {}", dateInput);
+                    return dateInput;
+                }
+            } catch (DateTimeParseException e) {
+                //log
+                logger.error("Invalid date format entered: {}", date);
+                System.out.println("Enter a valid date (format: yyyy-MM-dd)");
+            }
+        }
+    }
 }

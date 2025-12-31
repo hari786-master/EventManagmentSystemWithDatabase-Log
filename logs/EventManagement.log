@@ -189,3 +189,1455 @@
 2025-12-28 19:51:36,927 [MainController] DEBUG Event count: 6
 2025-12-28 19:51:36,930 [MainController] TRACE hari@zoho.com Viewed All Events
 2025-12-28 19:51:36,930 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 12:34:54,829 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 12:34:54,830 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 12:34:54,830 [MainController] DEBUG Displaying main menu
+2025-12-29 12:48:15,177 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 12:48:15,178 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 12:48:15,178 [MainController] DEBUG Displaying main menu
+2025-12-29 12:48:19,993 [MainController] INFO User selected Sign Up option
+2025-12-29 12:48:25,150 [MainController] DEBUG Name validation passed: Mathi
+2025-12-29 12:48:31,892 [MainController] DEBUG Email validation passed: mathi@gmail.com
+2025-12-29 12:48:37,570 [MainController] DEBUG Password validation passed
+2025-12-29 12:48:47,677 [MainController] DEBUG Role selected: user
+2025-12-29 12:48:47,683 [MainController] INFO New account created successfully: Mathi (mathi@gmail.com) as user
+2025-12-29 12:48:47,718 [MainController] DEBUG User data written to database
+2025-12-29 12:48:47,718 [MainController] DEBUG Displaying main menu
+2025-12-29 12:48:51,489 [MainController] INFO User selected Sign In option
+2025-12-29 12:48:58,325 [MainController] DEBUG Login attempt for email: mathi@gmail.com
+2025-12-29 12:49:01,374 [MainController] INFO User authentication successful: mathi@gmail.com
+2025-12-29 12:49:01,375 [MainController] INFO User: Mathi Logined Sucessfully
+2025-12-29 12:49:01,375 [MainController] INFO User menu accessed by: Mathi
+2025-12-29 12:49:01,377 [MainController] DEBUG User Mathi viewing organizer list
+2025-12-29 12:49:50,923 [MainController] DEBUG User entered organizer choice: 1
+2025-12-29 12:49:50,924 [MainController] INFO User Mathi selected organizer: hari@zoho.com (Org ID: 14)
+2025-12-29 12:51:14,043 [MainController] DEBUG User entered event number: 3
+2025-12-29 12:51:14,043 [MainController] INFO User Mathi selected event: 'q' (Event ID: 34)
+2025-12-29 12:51:16,898 [MainController] TRACE User 'Mathi' viewing sessions for event 'q' (Event ID: 34) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:51:24,419 [MainController] TRACE User 'Mathi' viewing speakers for event 'q' (Event ID: 34) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:51:37,022 [MainController] DEBUG User Mathi exiting event menu for organizer hari@zoho.com
+2025-12-29 12:51:37,024 [MainController] DEBUG User Mathi viewing organizer list
+2025-12-29 12:51:40,454 [MainController] DEBUG User entered organizer choice: 1
+2025-12-29 12:51:40,455 [MainController] INFO User Mathi selected organizer: hari@zoho.com (Org ID: 14)
+2025-12-29 12:51:43,563 [MainController] DEBUG User entered event number: 6
+2025-12-29 12:51:43,563 [MainController] INFO User Mathi selected event: 'hari' (Event ID: 38)
+2025-12-29 12:51:45,670 [MainController] TRACE User 'Mathi' viewing sessions for event 'hari' (Event ID: 38) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:53:30,321 [MainController] DEBUG User Mathi exiting event menu for organizer hari@zoho.com
+2025-12-29 12:53:30,322 [MainController] DEBUG User Mathi viewing organizer list
+2025-12-29 12:53:32,012 [MainController] DEBUG User entered organizer choice: 1
+2025-12-29 12:53:32,012 [MainController] INFO User Mathi selected organizer: hari@zoho.com (Org ID: 14)
+2025-12-29 12:53:43,041 [MainController] DEBUG User entered event number: 1
+2025-12-29 12:53:43,041 [MainController] INFO User Mathi selected event: 'test' (Event ID: 31)
+2025-12-29 12:53:46,572 [MainController] TRACE User 'Mathi' viewing sessions for event 'test' (Event ID: 31) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:53:54,339 [MainController] TRACE User 'Mathi' viewing speakers for event 'test' (Event ID: 31) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:54:17,733 [MainController] TRACE User 'Mathi' viewing sponsors for event 'test' (Event ID: 31) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:54:27,338 [MainController] TRACE User 'Mathi' viewing booths for event 'test' (Event ID: 31) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:54:33,309 [MainController] INFO User 'Mathi' attempting to purchase tickets for event 'test' (Event ID: 31) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:54:33,310 [MainController] WARN No tickets available for event 'test' - Purchase attempt failed
+2025-12-29 12:56:13,242 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 12:56:13,244 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 12:56:13,244 [MainController] DEBUG Displaying main menu
+2025-12-29 12:56:15,651 [MainController] INFO User selected Sign In option
+2025-12-29 12:56:26,304 [MainController] DEBUG Login attempt for email: mathi@gmail.com
+2025-12-29 12:56:29,241 [MainController] INFO User authentication successful: mathi@gmail.com
+2025-12-29 12:56:29,241 [MainController] INFO User: Mathi Logined Sucessfully
+2025-12-29 12:56:29,241 [MainController] INFO User menu accessed by: Mathi
+2025-12-29 12:56:29,242 [MainController] DEBUG User Mathi viewing organizer list
+2025-12-29 12:56:30,955 [MainController] DEBUG User entered organizer choice: 1
+2025-12-29 12:56:30,955 [MainController] INFO User Mathi selected organizer: hari@zoho.com (Org ID: 14)
+2025-12-29 12:56:32,572 [MainController] DEBUG User entered event number: 1
+2025-12-29 12:56:32,573 [MainController] INFO User Mathi selected event: 'test' (Event ID: 31)
+2025-12-29 12:56:35,507 [MainController] INFO User 'Mathi' attempting to purchase tickets for event 'test' (Event ID: 31) from organizer 'hari@zoho.com' (Org ID: 14)
+2025-12-29 12:56:35,507 [MainController] DEBUG Displaying available ticket information to user
+2025-12-29 12:56:35,507 [MainController] INFO Available tickets for event 'test': 10, Ticket price: $0.0
+2025-12-29 12:56:35,518 [MainController] DEBUG Payment object created with amount: $0.0
+2025-12-29 12:56:45,440 [MainController] DEBUG User entered ticket quantity: 3
+2025-12-29 12:56:45,440 [MainController] INFO Valid ticket count selected: 3
+2025-12-29 12:56:45,441 [MainController] DEBUG Ticket purchase calculation - Quantity: 3, Unit Price: $0.0, Total: $0.0
+2025-12-29 12:56:54,647 [MainController] DEBUG User entered payment amount: $12 (Required: $0.0)
+2025-12-29 12:56:54,647 [MainController] DEBUG Excess payment - Change returned: $12.0
+2025-12-29 12:56:54,648 [MainController] DEBUG Removing 3 tickets from available pool
+2025-12-29 12:56:54,648 [MainController] INFO Payment processed successfully - Amount: $0.0, Tickets: 3
+2025-12-29 12:56:54,673 [MainController] INFO TICKET PURCHASE COMPLETED - User: 'Mathi', Event: 'test', Tickets: 3, Total Amount: $0.0
+2025-12-29 12:56:54,673 [MainController] DEBUG Ticket added to user account, ticket count updated in database
+2025-12-29 12:57:16,256 [MainController] DEBUG User Mathi exiting event menu for organizer hari@zoho.com
+2025-12-29 12:57:16,258 [MainController] DEBUG User Mathi viewing organizer list
+2025-12-29 12:57:21,392 [MainController] DEBUG User entered organizer choice: 0
+2025-12-29 12:57:21,392 [MainController] INFO User Mathi logged out from organizer selection
+2025-12-29 12:57:21,393 [MainController] DEBUG Displaying main menu
+2025-12-29 12:57:26,414 [MainController] INFO User selected Sign In option
+2025-12-29 12:57:30,261 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 12:57:32,311 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 12:57:32,311 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 12:57:32,312 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 12:57:32,312 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 12:57:32,313 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 12:57:32,313 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 12:57:36,873 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 12:57:36,873 [MainController] DEBUG Event count: 6
+2025-12-29 12:57:36,876 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 12:57:36,876 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 12:57:56,633 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 12:57:56,633 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 12:58:03,947 [MainController] DEBUG Event name entered: Conference
+2025-12-29 12:58:07,755 [MainController] DEBUG Event Location entered: Tenkasi
+2025-12-29 12:58:19,682 [MainController] DEBUG Event budget: 120000.0
+2025-12-29 12:59:28,075 [MainController] DEBUG Event Category entered: Team meet
+2025-12-29 12:59:31,401 [MainController] DEBUG Event People Count entered: 30
+2025-12-29 12:59:42,866 [MainController] DEBUG Event date validated: 2025-12-30
+2025-12-29 12:59:42,866 [MainController] DEBUG Event object created: Conference (Venue: Tenkasi, Capacity: 30)
+2025-12-29 12:59:42,907 [MainController] INFO Event 'Conference' added to database successfully with ID: 40
+2025-12-29 12:59:42,907 [MainController] INFO Event creation completed: Conference
+2025-12-29 12:59:42,908 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 12:59:45,377 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 12:59:45,377 [MainController] DEBUG Event count: 7
+2025-12-29 12:59:45,380 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 12:59:45,380 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 12:59:51,624 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 12:59:51,624 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 13:00:42,024 [MainController] DEBUG Event name entered: 
+2025-12-29 13:00:42,349 [MainController] DEBUG Event Location entered: 
+2025-12-29 13:00:45,300 [MainController] ERROR Invalid budget input not a number
+2025-12-29 13:00:49,726 [MainController] DEBUG Event budget: 90.0
+2025-12-29 13:00:51,771 [MainController] DEBUG Event Category entered: 
+2025-12-29 13:00:55,642 [MainController] DEBUG Event People Count entered: 90
+2025-12-29 13:00:57,705 [MainController] ERROR Invalid date format entered: 
+2025-12-29 13:01:08,068 [MainController] WARN Past date entered for event: 2025-03-03
+2025-12-29 13:01:14,144 [MainController] DEBUG Event date validated: 2026-03-03
+2025-12-29 13:01:14,144 [MainController] DEBUG Event object created:  (Venue: , Capacity: 90)
+2025-12-29 13:01:14,153 [MainController] ERROR Database error while adding event '': No operations allowed after connection closed.
+2025-12-29 13:01:14,153 [MainController] INFO Event creation completed: 
+2025-12-29 13:01:14,154 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:01:26,475 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 13:01:26,475 [MainController] DEBUG Event count: 8
+2025-12-29 13:01:26,477 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 13:01:26,477 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:01:53,121 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 13:01:59,659 [MainController] DEBUG Event selected for modification: 8
+2025-12-29 13:03:48,234 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 13:03:52,540 [MainController] DEBUG Viewing all booths for event
+2025-12-29 13:03:52,541 [MainController] TRACE Organizer Viewed All Booths
+2025-12-29 13:03:55,706 [MainController] INFO Adding new booth to event
+2025-12-29 13:04:00,361 [MainController] DEBUG Booth size validated: 20.0
+2025-12-29 13:04:03,421 [MainController] DEBUG Booth cost validated: 3000.0
+2025-12-29 13:07:01,905 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 13:07:01,906 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 13:07:01,906 [MainController] DEBUG Displaying main menu
+2025-12-29 13:07:03,838 [MainController] INFO User selected Sign In option
+2025-12-29 13:07:07,808 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 13:07:11,487 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 13:07:11,487 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 13:07:11,488 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 13:07:11,488 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 13:07:11,488 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 13:07:11,488 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:07:13,266 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 13:07:29,182 [MainController] ERROR Invalid event number entered: 8
+2025-12-29 13:07:30,595 [MainController] DEBUG Event selected for modification: 7
+2025-12-29 13:07:32,216 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 13:07:33,443 [MainController] INFO Adding new booth to event
+2025-12-29 13:07:38,405 [MainController] DEBUG Booth size validated: 200.0
+2025-12-29 13:07:40,526 [MainController] DEBUG Booth cost validated: 3000.0
+2025-12-29 13:07:40,552 [MainController] INFO Booth created successfully: Test (Size: 200.0, Cost: 3000.0)
+2025-12-29 13:09:02,254 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 13:09:04,155 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:09:05,546 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 13:09:05,546 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 13:09:08,109 [MainController] DEBUG Event name entered: test
+2025-12-29 13:09:11,641 [MainController] DEBUG Event Location entered: tenkasi
+2025-12-29 13:09:21,950 [MainController] ERROR Invalid budget input not a number
+2025-12-29 13:09:24,045 [MainController] DEBUG Event budget: 3000.0
+2025-12-29 13:09:29,261 [MainController] DEBUG Event Category entered: Test
+2025-12-29 13:09:31,181 [MainController] DEBUG Event People Count entered: 20
+2025-12-29 13:09:35,171 [MainController] DEBUG Event date validated: 2029-11-11
+2025-12-29 13:09:35,171 [MainController] DEBUG Event object created: test (Venue: tenkasi, Capacity: 20)
+2025-12-29 13:09:35,202 [MainController] INFO Event 'test' added to database successfully with ID: 41
+2025-12-29 13:09:35,202 [MainController] INFO Event creation completed: test
+2025-12-29 13:09:35,202 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:09:37,804 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 13:09:40,022 [MainController] DEBUG Event selected for modification: 8
+2025-12-29 13:09:41,781 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 13:09:43,085 [MainController] INFO Adding new booth to event
+2025-12-29 13:09:46,229 [MainController] DEBUG Booth size validated: 200.0
+2025-12-29 13:09:48,476 [MainController] DEBUG Booth cost validated: 3000.0
+2025-12-29 13:18:26,552 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 13:18:26,554 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 13:18:26,554 [MainController] DEBUG Displaying main menu
+2025-12-29 13:18:27,827 [MainController] INFO User selected Sign In option
+2025-12-29 13:18:33,945 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 13:18:36,491 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 13:18:36,491 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 13:18:36,491 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 13:18:36,491 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 13:18:36,491 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 13:18:36,491 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:18:38,963 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 13:18:38,963 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 13:18:42,027 [MainController] DEBUG Event name entered: Testing
+2025-12-29 13:18:46,127 [MainController] DEBUG Event Location entered: Tenkasi
+2025-12-29 13:18:50,458 [MainController] DEBUG Event budget: 200.0
+2025-12-29 13:18:58,504 [MainController] DEBUG Event Category entered: Test
+2025-12-29 13:18:59,979 [MainController] DEBUG Event People Count entered: 20
+2025-12-29 13:19:05,325 [MainController] DEBUG Event date validated: 2028-11-11
+2025-12-29 13:19:05,325 [MainController] DEBUG Event object created: Testing (Venue: Tenkasi, Capacity: 20)
+2025-12-29 13:19:05,347 [MainController] INFO Event 'Testing' added to database successfully with ID: 42
+2025-12-29 13:19:05,347 [MainController] INFO Event creation completed: Testing
+2025-12-29 13:19:05,347 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:19:10,967 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 13:19:13,043 [MainController] DEBUG Event selected for modification: 9
+2025-12-29 13:19:14,207 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 13:19:15,439 [MainController] INFO Adding new booth to event
+2025-12-29 13:19:18,798 [MainController] DEBUG Booth size validated: 200.0
+2025-12-29 13:19:20,442 [MainController] DEBUG Booth cost validated: 2000.0
+2025-12-29 13:19:20,467 [MainController] INFO Booth created successfully: Test (Size: 200.0, Cost: 2000.0)
+2025-12-29 13:19:25,305 [MainController] DEBUG Viewing all booths for event
+2025-12-29 13:19:25,308 [MainController] TRACE Organizer Viewed All Booths
+2025-12-29 13:19:29,084 [MainController] INFO Adding new booth to event
+2025-12-29 13:19:32,600 [MainController] DEBUG Booth size validated: 20.0
+2025-12-29 13:19:34,896 [MainController] DEBUG Booth cost validated: 20.0
+2025-12-29 13:19:34,911 [MainController] INFO Booth created successfully:  (Size: 20.0, Cost: 20.0)
+2025-12-29 13:19:36,165 [MainController] DEBUG Viewing all booths for event
+2025-12-29 13:19:36,168 [MainController] TRACE Organizer Viewed All Booths
+2025-12-29 13:56:55,156 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 13:56:55,158 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 13:56:55,158 [MainController] DEBUG Displaying main menu
+2025-12-29 13:56:56,416 [MainController] INFO User selected Sign In option
+2025-12-29 13:57:00,244 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 13:57:04,142 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 13:57:04,142 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 13:57:04,142 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 13:57:04,142 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 13:57:04,142 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 13:57:04,143 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:57:05,319 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 13:57:05,320 [MainController] DEBUG Event count: 9
+2025-12-29 13:57:05,352 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 13:57:05,352 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:57:11,181 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:57:16,875 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 13:57:19,439 [MainController] DEBUG Event selected for modification: 9
+2025-12-29 13:57:21,086 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 13:57:27,033 [MainController] DEBUG Viewing all booths for event
+2025-12-29 13:57:27,038 [MainController] TRACE Organizer Viewed All Booths
+2025-12-29 13:57:32,153 [MainController] INFO Deleting booth from event
+2025-12-29 13:57:34,189 [MainController] DEBUG Selected booth 2 for deletion
+2025-12-29 13:57:35,973 [MainController] WARN Booth '' deleted from event
+2025-12-29 13:57:38,006 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 13:57:46,137 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 13:57:52,491 [MainController] DEBUG Displaying main menu
+2025-12-29 14:11:17,125 [MainController] INFO User selected Sign In option
+2025-12-29 14:11:18,708 [MainController] DEBUG Login attempt for email: 
+2025-12-29 14:11:18,708 [MainController] WARN Login failed - user not found: 
+2025-12-29 14:11:18,708 [MainController] DEBUG Displaying main menu
+2025-12-29 14:11:21,181 [MainController] INFO User selected Sign Up option
+2025-12-29 14:11:22,051 [MainController] WARN Name validation failed: 
+2025-12-29 14:11:23,567 [MainController] WARN Name validation failed: 
+2025-12-29 14:11:25,673 [MainController] DEBUG Name validation passed: hari
+2025-12-29 14:11:26,584 [MainController] WARN Email validation failed: 
+2025-12-29 14:11:43,455 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 14:11:43,456 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 14:11:43,456 [MainController] DEBUG Displaying main menu
+2025-12-29 14:11:43,458 [MainController] INFO User selected Sign In option
+2025-12-29 14:11:44,545 [MainController] DEBUG Login attempt for email: 1
+2025-12-29 14:11:44,545 [MainController] WARN Login failed - user not found: 1
+2025-12-29 14:11:44,545 [MainController] DEBUG Displaying main menu
+2025-12-29 14:11:46,469 [MainController] INFO User selected Sign In option
+2025-12-29 14:11:53,324 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 14:11:55,968 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 14:11:55,968 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 14:11:55,968 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 14:11:55,969 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 14:11:55,969 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 14:11:55,969 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:11:59,116 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 14:11:59,117 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 14:16:10,836 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 14:16:10,838 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 14:16:10,838 [MainController] DEBUG Displaying main menu
+2025-12-29 14:16:11,905 [MainController] INFO User selected Sign In option
+2025-12-29 14:16:15,737 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 14:16:18,248 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 14:16:18,248 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 14:16:18,249 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 14:16:18,249 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 14:16:18,249 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 14:16:18,250 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:16:20,910 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 14:16:20,910 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 14:16:32,641 [MainController] DEBUG Event name entered: hari
+2025-12-29 14:17:11,449 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 14:17:11,451 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 14:17:11,451 [MainController] DEBUG Displaying main menu
+2025-12-29 14:17:11,452 [MainController] INFO User selected Sign In option
+2025-12-29 14:17:13,440 [MainController] DEBUG Login attempt for email: 
+2025-12-29 14:17:13,441 [MainController] WARN Login failed - user not found: 
+2025-12-29 14:17:13,441 [MainController] DEBUG Displaying main menu
+2025-12-29 14:17:18,006 [MainController] INFO User selected Sign Up option
+2025-12-29 14:17:18,740 [MainController] WARN Name validation failed: 
+2025-12-29 14:19:15,979 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 14:19:15,981 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 14:19:15,981 [MainController] DEBUG Displaying main menu
+2025-12-29 14:19:17,499 [MainController] INFO User selected Sign In option
+2025-12-29 14:19:24,322 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 14:19:26,767 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 14:19:26,767 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 14:19:26,768 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 14:19:26,768 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 14:19:26,769 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 14:19:26,769 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:19:28,130 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 14:19:28,131 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 14:19:33,200 [MainController] DEBUG Event name entered: has
+2025-12-29 14:19:35,361 [MainController] DEBUG Event Location entered: 
+2025-12-29 14:20:28,727 [MainController] ERROR Invalid budget input not a number
+2025-12-29 14:20:34,854 [MainController] DEBUG Event budget: 6.0
+2025-12-29 14:21:05,286 [MainController] DEBUG Event Category entered: 
+2025-12-29 14:21:07,898 [MainController] DEBUG Event People Count entered: 2
+2025-12-29 14:21:09,198 [MainController] ERROR Invalid date format entered: 
+2025-12-29 14:21:11,059 [MainController] ERROR Invalid date format entered: 
+2025-12-29 14:21:11,612 [MainController] ERROR Invalid date format entered: 
+2025-12-29 14:21:15,050 [MainController] DEBUG Event date validated: 2026-11-11
+2025-12-29 14:21:15,050 [MainController] DEBUG Event object created: has (Venue: , Capacity: 2)
+2025-12-29 14:21:15,072 [MainController] INFO Event 'has' added to database successfully with ID: 43
+2025-12-29 14:21:15,072 [MainController] INFO Event creation completed: has
+2025-12-29 14:21:15,072 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:21:18,837 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 14:21:57,992 [MainController] DEBUG Event selected for modification: 10
+2025-12-29 14:21:59,831 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 14:22:01,633 [MainController] INFO Adding new booth to event
+2025-12-29 14:22:43,890 [MainController] DEBUG Booth size validated: 5.0
+2025-12-29 14:22:46,324 [MainController] DEBUG Booth cost validated: 87.0
+2025-12-29 14:22:46,346 [MainController] INFO Booth created successfully:  (Size: 5.0, Cost: 87.0)
+2025-12-29 14:22:49,596 [MainController] INFO Updating existing booth
+2025-12-29 14:22:51,403 [MainController] DEBUG Selected booth 1 for update
+2025-12-29 14:23:08,478 [MainController] INFO Booth '' updated in database
+2025-12-29 14:23:08,479 [MainController] INFO Booth  Updated Sucessfully
+2025-12-29 14:23:11,957 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 14:23:13,863 [MainController] DEBUG Organizer selected session operations
+2025-12-29 14:23:15,673 [MainController] INFO Adding new session to event
+2025-12-29 14:23:59,939 [MainController] INFO Session '' added to event
+2025-12-29 14:24:18,952 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 14:24:18,953 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 14:24:18,953 [MainController] DEBUG Displaying main menu
+2025-12-29 14:24:21,233 [MainController] INFO User selected Sign In option
+2025-12-29 14:24:25,764 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 14:24:28,365 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 14:24:28,365 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 14:24:28,366 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 14:24:28,366 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 14:24:28,366 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 14:24:28,366 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:24:30,356 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 14:24:32,560 [MainController] DEBUG Event selected for modification: 10
+2025-12-29 14:24:33,797 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 14:24:37,820 [MainController] INFO Deleting booth from event
+2025-12-29 14:24:39,828 [MainController] DEBUG Selected booth 1 for deletion
+2025-12-29 14:24:40,817 [MainController] INFO Booth deletion cancelled
+2025-12-29 14:24:46,728 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 14:24:48,170 [MainController] DEBUG Organizer selected session operations
+2025-12-29 14:24:50,120 [MainController] INFO Updating existing session
+2025-12-29 14:24:56,498 [MainController] DEBUG Session topic update cancelled - empty input
+2025-12-29 14:25:00,874 [MainController] INFO Deleting session from event
+2025-12-29 14:25:15,152 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 14:25:16,574 [MainController] INFO Deleting booth from event
+2025-12-29 14:25:19,466 [MainController] DEBUG Selected booth 1 for deletion
+2025-12-29 14:25:20,312 [MainController] INFO Booth deletion cancelled
+2025-12-29 14:25:45,891 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 14:25:48,893 [MainController] DEBUG Organizer selected speaker operations
+2025-12-29 14:25:50,747 [MainController] INFO Viewing All Speaker
+2025-12-29 14:25:50,748 [MainController] INFO Viewed All Speaker
+2025-12-29 14:25:53,842 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:25:56,588 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 14:25:59,176 [MainController] INFO Event 'has' removed  Canceled
+2025-12-29 14:25:59,177 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:26:10,584 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 14:26:12,178 [MainController] DEBUG Event selected for modification: 10
+2025-12-29 14:26:19,646 [MainController] DEBUG Organizer selected session operations
+2025-12-29 14:26:23,625 [MainController] INFO Deleting session from event
+2025-12-29 14:26:25,201 [MainController] INFO Viewing All Sessions
+2025-12-29 14:26:25,202 [MainController] INFO Viewed All Sessions
+2025-12-29 14:26:28,431 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 14:26:28,910 [MainController] DEBUG Viewing all booths for event
+2025-12-29 14:26:28,912 [MainController] TRACE Organizer Viewed All Booths
+2025-12-29 14:26:31,448 [MainController] INFO Deleting booth from event
+2025-12-29 14:26:36,268 [MainController] DEBUG Selected booth 1 for deletion
+2025-12-29 14:26:38,202 [MainController] INFO Booth deletion cancelled
+2025-12-29 14:26:51,397 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 14:26:54,394 [MainController] DEBUG Organizer selected speaker operations
+2025-12-29 14:26:58,757 [MainController] DEBUG Organizer selected session operations
+2025-12-29 14:27:00,666 [MainController] INFO Adding new session to event
+2025-12-29 14:27:07,941 [MainController] INFO Session 'test' added to event
+2025-12-29 14:29:29,295 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 14:29:29,296 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 14:29:29,296 [MainController] DEBUG Displaying main menu
+2025-12-29 14:29:29,298 [MainController] INFO User selected Sign In option
+2025-12-29 14:29:33,785 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 14:29:35,888 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 14:29:35,888 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 14:29:35,889 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 14:29:35,889 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 14:29:35,889 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 14:29:35,889 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:29:38,109 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 14:29:40,018 [MainController] DEBUG Event selected for modification: 10
+2025-12-29 14:29:41,334 [MainController] DEBUG Organizer selected session operations
+2025-12-29 14:29:43,852 [MainController] INFO Adding new session to event
+2025-12-29 14:29:48,107 [MainController] INFO Session 'test' added to event
+2025-12-29 14:30:14,018 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 14:30:14,020 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 14:30:14,020 [MainController] DEBUG Displaying main menu
+2025-12-29 14:30:14,592 [MainController] INFO User selected Sign In option
+2025-12-29 14:30:19,120 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 14:30:21,152 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 14:30:21,153 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 14:30:21,153 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 14:30:21,153 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 14:30:21,153 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 14:30:21,153 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:30:23,653 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 14:30:25,284 [MainController] DEBUG Event selected for modification: 10
+2025-12-29 14:30:27,779 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 14:30:29,629 [MainController] INFO Deleting booth from event
+2025-12-29 14:30:30,855 [MainController] DEBUG Selected booth 1 for deletion
+2025-12-29 14:30:32,456 [MainController] INFO Booth deletion cancelled
+2025-12-29 14:32:45,394 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 14:32:45,396 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 14:32:45,396 [MainController] DEBUG Displaying main menu
+2025-12-29 14:32:47,528 [MainController] INFO User selected Sign In option
+2025-12-29 14:32:51,212 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 14:32:53,439 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 14:32:53,439 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 14:32:53,439 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 14:32:53,439 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 14:32:53,440 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 14:32:53,440 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 14:32:55,123 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 14:32:56,872 [MainController] DEBUG Event selected for modification: 10
+2025-12-29 14:32:57,994 [MainController] DEBUG Organizer selected session operations
+2025-12-29 14:33:00,763 [MainController] INFO Adding new session to event
+2025-12-29 14:33:04,867 [MainController] INFO Session 'jas' added to event
+2025-12-29 14:33:33,211 [MainController] INFO Session 'a' added to event
+2025-12-29 14:33:39,765 [MainController] DEBUG Organizer selected session operations
+2025-12-29 14:33:40,148 [MainController] INFO Viewing All Sessions
+2025-12-29 14:33:40,150 [MainController] INFO Viewed All Sessions
+2025-12-29 14:34:31,695 [MainController] INFO Updating existing session
+2025-12-29 14:36:54,397 [MainController] INFO Adding new session to event
+2025-12-29 14:36:57,595 [MainController] INFO Session 'kas' added to event
+2025-12-29 14:37:03,085 [MainController] INFO Updating existing session
+2025-12-29 14:37:11,384 [MainController] DEBUG Session topic update cancelled - empty input
+2025-12-29 14:37:48,289 [MainController] INFO Deleting session from event
+2025-12-29 14:37:57,004 [MainController] INFO Viewing All Sessions
+2025-12-29 14:37:57,006 [MainController] INFO Viewed All Sessions
+2025-12-29 14:38:09,916 [MainController] DEBUG Organizer selected speaker operations
+2025-12-29 14:38:12,438 [MainController] INFO Viewing All Speaker
+2025-12-29 14:38:12,439 [MainController] INFO Viewed All Speaker
+2025-12-29 14:38:15,103 [MainController] INFO Adding speaker to session
+2025-12-29 14:38:26,998 [MainController] INFO Speaker '' assigned to session
+2025-12-29 14:38:28,144 [MainController] INFO Viewing All Speaker
+2025-12-29 14:38:28,145 [MainController] INFO Viewed All Speaker
+2025-12-29 14:42:39,125 [MainController] INFO Speaker updated from '' to '' for session 'test'
+2025-12-29 14:42:48,137 [MainController] INFO Speaker updated from '' to '' for session 'test'
+2025-12-29 14:42:49,905 [MainController] INFO Adding speaker to session
+2025-12-29 14:44:26,730 [MainController] INFO Speaker updated from '' to '' for session 'test'
+2025-12-29 14:44:38,269 [MainController] INFO Viewing All Speaker
+2025-12-29 14:44:38,270 [MainController] INFO Viewed All Speaker
+2025-12-29 14:44:45,764 [MainController] INFO Speaker updated from '' to '' for session 'test'
+2025-12-29 14:44:49,893 [MainController] INFO Adding speaker to session
+2025-12-29 14:44:58,734 [MainController] DEBUG Organizer selected sponsor operations
+2025-12-29 14:45:00,684 [MainController] INFO Adding sponsor to event
+2025-12-29 14:45:03,875 [MainController] INFO Sponsor '' added with amount $1.0
+2025-12-29 14:46:24,573 [MainController] INFO Adding sponsor to event
+2025-12-29 14:46:27,079 [MainController] INFO Sponsor '' added with amount $1.0
+2025-12-29 14:47:12,975 [MainController] DEBUG Organizer selected expense operations
+2025-12-29 14:47:14,522 [MainController] INFO Adding expense to event
+2025-12-29 14:47:17,064 [MainController] INFO Expense '' added: $1.0
+2025-12-29 14:48:33,482 [MainController] TRACE Viewing All Expenses
+2025-12-29 14:48:33,483 [MainController] TRACE Viewed All Expenses
+2025-12-29 14:48:43,709 [MainController] TRACE Viewing All Expenses
+2025-12-29 14:48:43,710 [MainController] TRACE Viewed All Expenses
+2025-12-29 14:50:02,961 [MainController] DEBUG Organizer selected ticket operations
+2025-12-29 14:50:08,241 [MainController] TRACE Viewing Available Tickets
+2025-12-29 14:50:08,241 [MainController] TRACE Viewed Available Tickets
+2025-12-29 14:50:12,659 [MainController] TRACE Entered To update Ticket Price
+2025-12-29 14:50:14,724 [MainController] INFO Ticket price updated to $23.0 for event 'has'
+2025-12-29 14:50:21,805 [MainController] TRACE Entered To update Ticket Count
+2025-12-29 14:50:22,649 [MainController] INFO Ticket Count updated to $1 for event 'has'
+2025-12-29 14:50:25,331 [MainController] TRACE Viewing Ticket Price
+2025-12-29 14:50:25,332 [MainController] INFO Viewed Ticket Price
+2025-12-29 14:50:31,179 [MainController] TRACE Viewing Ticket Price
+2025-12-29 14:50:31,180 [MainController] INFO Viewed Ticket Price
+2025-12-29 14:50:34,509 [MainController] TRACE Entered To update Ticket Price
+2025-12-29 14:50:35,570 [MainController] INFO Ticket price updated to $234.0 for event 'has'
+2025-12-29 14:50:36,983 [MainController] TRACE Viewing Ticket Price
+2025-12-29 14:50:36,983 [MainController] INFO Viewed Ticket Price
+2025-12-29 14:50:43,187 [MainController] TRACE Entered To update Ticket Count
+2025-12-29 14:50:45,889 [MainController] INFO Ticket Count updated to $2 for event 'has'
+2025-12-29 14:50:47,893 [MainController] TRACE Viewing Ticket Price
+2025-12-29 14:50:47,893 [MainController] INFO Viewed Ticket Price
+2025-12-29 14:51:03,878 [MainController] TRACE Viewing Available Tickets
+2025-12-29 14:51:03,878 [MainController] TRACE Viewed Available Tickets
+2025-12-29 14:51:08,406 [MainController] TRACE Entered To update Ticket Price
+2025-12-29 14:51:16,413 [MainController] INFO Ticket price updated to $100.0 for event 'has'
+2025-12-29 14:51:18,577 [MainController] TRACE Viewing Ticket Price
+2025-12-29 14:51:18,578 [MainController] INFO Viewed Ticket Price
+2025-12-29 14:51:22,331 [MainController] TRACE Entered To update Ticket Count
+2025-12-29 14:51:23,538 [MainController] INFO Ticket Count updated to $1 for event 'has'
+2025-12-29 14:51:26,027 [MainController] TRACE Viewing Ticket Price
+2025-12-29 14:51:26,027 [MainController] INFO Viewed Ticket Price
+2025-12-29 14:51:32,869 [MainController] TRACE Viewing Available Tickets
+2025-12-29 14:51:32,869 [MainController] TRACE Viewed Available Tickets
+2025-12-29 14:51:36,036 [MainController] TRACE Entered To update Ticket Price
+2025-12-29 14:51:37,627 [MainController] INFO Ticket price updated to $100.0 for event 'has'
+2025-12-29 14:51:38,622 [MainController] TRACE Viewing Available Tickets
+2025-12-29 14:51:38,622 [MainController] TRACE Viewed Available Tickets
+2025-12-29 15:04:09,497 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:04:09,498 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:04:09,498 [MainController] DEBUG Displaying main menu
+2025-12-29 15:04:10,454 [MainController] INFO User selected Sign In option
+2025-12-29 15:04:14,214 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:04:16,507 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:04:16,507 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:04:16,508 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:04:16,508 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:04:16,508 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:04:16,508 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:04:18,857 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:04:21,128 [MainController] DEBUG Event selected for modification: 10
+2025-12-29 15:04:22,959 [MainController] DEBUG Organizer selected ticket operations
+2025-12-29 15:04:23,841 [MainController] TRACE Viewing Available Tickets
+2025-12-29 15:04:23,842 [MainController] TRACE Viewed Available Tickets
+2025-12-29 15:04:25,822 [MainController] TRACE Entered To update Ticket Price
+2025-12-29 15:04:27,300 [MainController] INFO Ticket price updated to $100.0 for event 'has'
+2025-12-29 15:04:30,013 [MainController] TRACE Viewing Ticket Price
+2025-12-29 15:04:30,016 [MainController] INFO Viewed Ticket Price
+2025-12-29 15:04:35,780 [MainController] TRACE Entered To update Ticket Count
+2025-12-29 15:04:37,542 [MainController] INFO Ticket Count updated to $12 for event 'has'
+2025-12-29 15:04:39,163 [MainController] TRACE Viewing Available Tickets
+2025-12-29 15:04:39,164 [MainController] TRACE Viewed Available Tickets
+2025-12-29 15:04:41,429 [MainController] TRACE Viewing Ticket Price
+2025-12-29 15:04:41,430 [MainController] INFO Viewed Ticket Price
+2025-12-29 15:04:48,980 [MainController] TRACE Entered To update Ticket Count
+2025-12-29 15:04:49,691 [MainController] INFO Ticket Count updated to $1 for event 'has'
+2025-12-29 15:04:51,416 [MainController] TRACE Viewing Available Tickets
+2025-12-29 15:04:51,417 [MainController] TRACE Viewed Available Tickets
+2025-12-29 15:04:55,049 [MainController] TRACE Viewing Ticket Price
+2025-12-29 15:04:55,050 [MainController] INFO Viewed Ticket Price
+2025-12-29 15:04:57,913 [MainController] TRACE Entered To update Ticket Price
+2025-12-29 15:04:59,824 [MainController] INFO Ticket price updated to $50.0 for event 'has'
+2025-12-29 15:05:05,371 [MainController] TRACE Viewing Available Tickets
+2025-12-29 15:05:05,372 [MainController] TRACE Viewed Available Tickets
+2025-12-29 15:05:07,590 [MainController] TRACE Viewing Ticket Price
+2025-12-29 15:05:07,591 [MainController] INFO Viewed Ticket Price
+2025-12-29 15:05:38,330 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 15:05:44,443 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 15:05:46,607 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:05:48,237 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:05:51,499 [MainController] WARN Event 'test' deleted from database
+2025-12-29 15:05:51,500 [MainController] WARN Event 'q' removed from memory
+2025-12-29 15:05:51,500 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:05:53,909 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:05:57,744 [MainController] WARN Event 'q' deleted from database
+2025-12-29 15:05:57,744 [MainController] WARN Event 'q' removed from memory
+2025-12-29 15:05:57,744 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:05:59,698 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:02,500 [MainController] WARN Event 'q' deleted from database
+2025-12-29 15:06:02,501 [MainController] WARN Event 'a' removed from memory
+2025-12-29 15:06:02,501 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:04,498 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:06,807 [MainController] WARN Event 'a' deleted from database
+2025-12-29 15:06:06,807 [MainController] WARN Event 'ha' removed from memory
+2025-12-29 15:06:06,807 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:07,519 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:09,663 [MainController] INFO Event 'ha' removed  Canceled
+2025-12-29 15:06:09,664 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:11,196 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:12,278 [MainController] WARN Event 'ha' deleted from database
+2025-12-29 15:06:12,278 [MainController] WARN Event 'hari' removed from memory
+2025-12-29 15:06:12,278 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:13,489 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:14,973 [MainController] WARN Event 'hari' deleted from database
+2025-12-29 15:06:14,973 [MainController] WARN Event 'Conference' removed from memory
+2025-12-29 15:06:14,973 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:16,057 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:17,181 [MainController] WARN Event 'Conference' deleted from database
+2025-12-29 15:06:17,182 [MainController] WARN Event 'test' removed from memory
+2025-12-29 15:06:17,182 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:18,235 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:19,435 [MainController] WARN Event 'test' deleted from database
+2025-12-29 15:06:19,435 [MainController] WARN Event 'Testing' removed from memory
+2025-12-29 15:06:19,435 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:20,569 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:21,530 [MainController] WARN Event 'Testing' deleted from database
+2025-12-29 15:06:21,531 [MainController] WARN Event 'has' removed from memory
+2025-12-29 15:06:21,531 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:22,568 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:06:23,516 [MainController] WARN Event 'has' deleted from database
+2025-12-29 15:06:33,311 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:06:33,312 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:06:33,312 [MainController] DEBUG Displaying main menu
+2025-12-29 15:06:34,411 [MainController] INFO User selected Sign In option
+2025-12-29 15:06:37,481 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:06:39,439 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:06:39,440 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:06:39,440 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:06:39,440 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:06:39,441 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:06:39,441 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:40,710 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 15:06:40,711 [MainController] DEBUG Event count: 0
+2025-12-29 15:06:40,711 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 15:06:40,712 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:06:53,457 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 15:06:53,458 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 15:06:54,531 [MainController] DEBUG Event name entered: efw
+2025-12-29 15:06:55,037 [MainController] DEBUG Event Location entered: 12
+2025-12-29 15:06:55,592 [MainController] DEBUG Event budget: 123.0
+2025-12-29 15:06:56,221 [MainController] DEBUG Event Category entered: 13
+2025-12-29 15:06:56,789 [MainController] DEBUG Event People Count entered: 2
+2025-12-29 15:06:56,926 [MainController] ERROR Invalid date format entered: 
+2025-12-29 15:07:02,502 [MainController] DEBUG Event date validated: 2029-11-11
+2025-12-29 15:07:02,504 [MainController] DEBUG Event object created: efw (Venue: 12, Capacity: 2)
+2025-12-29 15:07:02,541 [MainController] INFO Event 'efw' added to database successfully with ID: 44
+2025-12-29 15:07:02,541 [MainController] INFO Event creation completed: efw
+2025-12-29 15:07:02,542 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:07:04,399 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 15:07:04,399 [MainController] DEBUG Event count: 1
+2025-12-29 15:07:04,422 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 15:07:04,423 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:07:07,533 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:07:09,376 [MainController] WARN Event 'efw' deleted from database
+2025-12-29 15:08:51,041 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:08:51,044 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:08:51,044 [MainController] DEBUG Displaying main menu
+2025-12-29 15:08:51,333 [MainController] INFO User selected Sign In option
+2025-12-29 15:08:54,522 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:08:56,822 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:08:56,822 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:08:56,822 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:08:56,822 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:08:56,822 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:08:56,823 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:08:58,437 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 15:08:58,438 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 15:08:58,738 [MainController] DEBUG Event name entered: 1
+2025-12-29 15:08:59,021 [MainController] DEBUG Event Location entered: 1
+2025-12-29 15:08:59,308 [MainController] DEBUG Event budget: 1.0
+2025-12-29 15:08:59,583 [MainController] DEBUG Event Category entered: 1
+2025-12-29 15:08:59,860 [MainController] DEBUG Event People Count entered: 1
+2025-12-29 15:09:03,564 [MainController] DEBUG Event date validated: 2029-11-11
+2025-12-29 15:09:03,565 [MainController] DEBUG Event object created: 1 (Venue: 1, Capacity: 1)
+2025-12-29 15:09:03,595 [MainController] INFO Event '1' added to database successfully with ID: 45
+2025-12-29 15:09:03,595 [MainController] INFO Event creation completed: 1
+2025-12-29 15:09:03,595 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:09:09,952 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:09:18,531 [MainController] WARN Event '1' deleted from database
+2025-12-29 15:09:18,531 [MainController] WARN Event '1' removed from memory
+2025-12-29 15:09:18,531 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:09:20,680 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 15:09:20,681 [MainController] DEBUG Event count: 0
+2025-12-29 15:09:20,681 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 15:09:20,681 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:09:30,041 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 15:09:30,041 [MainController] DEBUG Event count: 0
+2025-12-29 15:09:30,042 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 15:09:30,042 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:09:31,577 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:09:31,578 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:11:45,810 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 15:11:45,810 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 15:11:46,344 [MainController] DEBUG Event name entered: w
+2025-12-29 15:11:46,748 [MainController] DEBUG Event Location entered: we
+2025-12-29 15:11:47,856 [MainController] DEBUG Event budget: 2.0
+2025-12-29 15:11:49,279 [MainController] DEBUG Event Category entered: 2
+2025-12-29 15:11:50,623 [MainController] DEBUG Event People Count entered: 12
+2025-12-29 15:11:54,221 [MainController] DEBUG Event date validated: 2029-11-11
+2025-12-29 15:11:54,221 [MainController] DEBUG Event object created: w (Venue: we, Capacity: 12)
+2025-12-29 15:11:54,245 [MainController] INFO Event 'w' added to database successfully with ID: 46
+2025-12-29 15:11:54,245 [MainController] INFO Event creation completed: w
+2025-12-29 15:11:54,245 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:11:56,300 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:12:28,100 [MainController] ERROR Invalid event number entered: 9
+2025-12-29 15:12:29,051 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 15:12:36,377 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:12:39,445 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:12:41,937 [MainController] WARN Event 'w' deleted from database
+2025-12-29 15:12:41,937 [MainController] WARN Event 'w' removed from memory
+2025-12-29 15:12:41,937 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:12:52,000 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 15:12:52,001 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 15:13:08,051 [MainController] DEBUG Event name entered: exit
+2025-12-29 15:13:16,734 [MainController] DEBUG Event Location entered: exit
+2025-12-29 15:13:19,281 [MainController] DEBUG Event budget: 0.0
+2025-12-29 15:13:22,876 [MainController] DEBUG Event Category entered: exit
+2025-12-29 15:13:25,451 [MainController] DEBUG Event People Count entered: 0
+2025-12-29 15:13:34,835 [MainController] DEBUG Event date validated: 2029-11-11
+2025-12-29 15:13:34,836 [MainController] DEBUG Event object created: exit (Venue: exit, Capacity: 0)
+2025-12-29 15:13:34,861 [MainController] INFO Event 'exit' added to database successfully with ID: 47
+2025-12-29 15:13:34,861 [MainController] INFO Event creation completed: exit
+2025-12-29 15:13:34,861 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:13:39,890 [MainController] WARN Organizer hari@zoho.com attempting to delete event
+2025-12-29 15:13:44,300 [MainController] WARN Event 'exit' deleted from database
+2025-12-29 15:13:44,300 [MainController] WARN Event 'exit' removed from memory
+2025-12-29 15:13:44,300 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:14:50,541 [MainController] DEBUG Displaying main menu
+2025-12-29 15:23:32,397 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:23:32,399 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:23:32,399 [MainController] DEBUG Displaying main menu
+2025-12-29 15:23:33,926 [MainController] INFO User selected Sign In option
+2025-12-29 15:23:37,614 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:23:40,624 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:23:40,625 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:23:40,625 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:23:40,625 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:23:40,625 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:23:40,625 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:23:42,812 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 15:23:42,813 [MainController] DEBUG Event count: 0
+2025-12-29 15:23:42,813 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 15:23:42,813 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:23:44,477 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 15:23:44,477 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 15:23:46,137 [MainController] DEBUG Event name entered: as
+2025-12-29 15:23:46,570 [MainController] DEBUG Event Location entered: sa
+2025-12-29 15:23:46,938 [MainController] ERROR Invalid budget input not a number
+2025-12-29 15:23:47,710 [MainController] DEBUG Event budget: 12.0
+2025-12-29 15:23:48,045 [MainController] DEBUG Event Category entered: 12
+2025-12-29 15:23:48,401 [MainController] DEBUG Event People Count entered: 12
+2025-12-29 15:23:52,661 [MainController] DEBUG Event date validated: 2029-11-11
+2025-12-29 15:23:52,662 [MainController] DEBUG Event object created: as (Venue: sa, Capacity: 12)
+2025-12-29 15:23:52,690 [MainController] INFO Event 'as' added to database successfully with ID: 48
+2025-12-29 15:23:52,690 [MainController] INFO Event creation completed: as
+2025-12-29 15:23:52,690 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:23:58,202 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 15:23:58,203 [MainController] DEBUG Event count: 1
+2025-12-29 15:23:58,226 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 15:23:58,226 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:27:28,722 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:27:28,725 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:27:28,725 [MainController] DEBUG Displaying main menu
+2025-12-29 15:27:28,876 [MainController] INFO User selected Sign In option
+2025-12-29 15:27:32,204 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:27:35,059 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:27:35,059 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:27:35,060 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:27:35,060 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:27:35,060 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:27:35,060 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:27:37,283 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:27:40,332 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 15:28:10,944 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:28:10,945 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:28:10,945 [MainController] DEBUG Displaying main menu
+2025-12-29 15:28:10,947 [MainController] INFO User selected Sign In option
+2025-12-29 15:28:14,895 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:28:18,460 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:28:18,460 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:28:18,461 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:28:18,461 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:28:18,462 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:28:18,462 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:28:19,961 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:28:20,868 [MainController] ERROR Invalid event number entered: 8
+2025-12-29 15:28:22,173 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 15:35:35,094 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:35:35,096 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:35:35,096 [MainController] DEBUG Displaying main menu
+2025-12-29 15:35:35,998 [MainController] INFO User selected Sign In option
+2025-12-29 15:35:40,554 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:35:42,764 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:35:42,764 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:35:42,765 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:35:42,765 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:35:42,765 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:35:42,765 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:35:47,013 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:35:48,430 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 15:36:31,639 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:36:31,642 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:36:31,642 [MainController] DEBUG Displaying main menu
+2025-12-29 15:36:32,043 [MainController] WARN User entered invalid menu choice
+2025-12-29 15:36:32,043 [MainController] DEBUG Displaying main menu
+2025-12-29 15:36:34,037 [MainController] INFO User selected Sign In option
+2025-12-29 15:36:38,933 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:36:41,118 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:36:41,118 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:36:41,118 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:36:41,118 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:36:41,118 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:36:41,118 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:36:43,824 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:36:44,980 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 15:37:13,687 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:37:13,690 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:37:13,690 [MainController] DEBUG Displaying main menu
+2025-12-29 15:37:43,297 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:37:43,299 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:37:43,299 [MainController] DEBUG Displaying main menu
+2025-12-29 15:37:43,301 [MainController] INFO User selected Sign In option
+2025-12-29 15:37:46,622 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:37:48,569 [MainController] WARN Invalid password for email: hari@zoho.com
+2025-12-29 15:37:48,570 [MainController] DEBUG Displaying main menu
+2025-12-29 15:37:49,737 [MainController] INFO User selected Sign In option
+2025-12-29 15:37:53,149 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:37:55,209 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:37:55,209 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:37:55,210 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:37:55,210 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:37:55,210 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:37:55,210 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:37:57,294 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:37:58,487 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 15:38:43,098 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 15:38:44,711 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 15:40:57,066 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:40:57,068 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:40:57,069 [MainController] DEBUG Displaying main menu
+2025-12-29 15:41:34,214 [MainController] INFO User selected Sign In option
+2025-12-29 15:41:38,188 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:41:40,253 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:41:40,253 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:41:40,253 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:41:40,254 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:41:40,254 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:41:40,254 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:41:41,995 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:41:43,539 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 15:44:25,252 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 15:44:25,254 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 15:44:25,254 [MainController] DEBUG Displaying main menu
+2025-12-29 15:44:25,256 [MainController] INFO User selected Sign In option
+2025-12-29 15:44:29,213 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 15:44:31,317 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 15:44:31,317 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 15:44:31,317 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 15:44:31,318 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 15:44:31,318 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 15:44:31,318 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 15:44:32,968 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 15:44:34,316 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:01:56,496 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:01:56,497 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:01:56,497 [MainController] DEBUG Displaying main menu
+2025-12-29 16:02:02,321 [MainController] INFO User selected Sign In option
+2025-12-29 16:02:05,592 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:02:07,640 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:02:07,640 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:02:07,641 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:02:07,641 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:02:07,641 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:02:07,641 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:02:11,416 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:02:13,454 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:03:42,630 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:03:42,631 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:03:42,631 [MainController] DEBUG Displaying main menu
+2025-12-29 16:03:43,194 [MainController] INFO User selected Sign In option
+2025-12-29 16:03:46,279 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:03:48,411 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:03:48,411 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:03:48,412 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:03:48,412 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:03:48,412 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:03:48,412 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:03:50,047 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:03:51,232 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:04:58,806 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:04:58,807 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:04:58,808 [MainController] DEBUG Displaying main menu
+2025-12-29 16:04:58,809 [MainController] INFO User selected Sign In option
+2025-12-29 16:05:02,518 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:05:07,792 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:05:07,793 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:05:07,793 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:05:07,793 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:05:07,793 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:05:07,793 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:05:09,578 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:05:10,684 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:06:10,211 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:06:10,213 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:06:10,213 [MainController] DEBUG Displaying main menu
+2025-12-29 16:06:11,280 [MainController] INFO User selected Sign In option
+2025-12-29 16:06:14,797 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:06:17,294 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:06:17,294 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:06:17,294 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:06:17,295 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:06:17,295 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:06:17,295 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:06:18,762 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:06:19,987 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:06:21,919 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 16:06:24,527 [MainController] INFO Adding new booth to event
+2025-12-29 16:06:28,737 [MainController] DEBUG Booth size validated: 21.0
+2025-12-29 16:06:30,172 [MainController] DEBUG Booth cost validated: 23.0
+2025-12-29 16:06:30,195 [MainController] INFO Booth created successfully: te (Size: 21.0, Cost: 23.0)
+2025-12-29 16:06:32,922 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 16:07:36,518 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:07:36,519 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:07:36,519 [MainController] DEBUG Displaying main menu
+2025-12-29 16:07:37,246 [MainController] INFO User selected Sign In option
+2025-12-29 16:07:40,323 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:07:42,204 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:07:42,205 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:07:42,205 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:07:42,205 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:07:42,205 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:07:42,206 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:07:44,531 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:07:45,829 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:08:26,653 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:08:26,655 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:08:26,655 [MainController] DEBUG Displaying main menu
+2025-12-29 16:08:27,770 [MainController] INFO User selected Sign In option
+2025-12-29 16:08:30,952 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:08:34,023 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:08:34,023 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:08:34,023 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:08:34,023 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:08:34,023 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:08:34,023 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:08:35,325 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:08:36,439 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:10:06,233 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:10:06,234 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:10:06,234 [MainController] DEBUG Displaying main menu
+2025-12-29 16:10:06,853 [MainController] INFO User selected Sign In option
+2025-12-29 16:10:09,723 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:10:11,510 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:10:11,510 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:10:11,511 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:10:11,511 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:10:11,511 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:10:11,511 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:10:13,450 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:10:14,687 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:10:52,932 [MainController] DEBUG Organizer selected expense operations
+2025-12-29 16:10:55,143 [MainController] TRACE Viewing All Expenses
+2025-12-29 16:10:55,144 [MainController] TRACE Viewed All Expenses
+2025-12-29 16:10:56,996 [MainController] INFO Adding expense to event
+2025-12-29 16:11:09,750 [MainController] INFO Expense '5' added: $123.0
+2025-12-29 16:11:13,101 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 16:11:14,477 [MainController] INFO Adding new booth to event
+2025-12-29 16:11:35,134 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:11:35,135 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:11:35,135 [MainController] DEBUG Displaying main menu
+2025-12-29 16:11:35,826 [MainController] INFO User selected Sign In option
+2025-12-29 16:11:39,007 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:11:40,897 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:11:40,898 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:11:40,898 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:11:40,898 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:11:40,899 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:11:40,899 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:11:42,271 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:11:43,550 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:11:44,740 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 16:11:46,336 [MainController] INFO Adding new booth to event
+2025-12-29 16:11:49,491 [MainController] DEBUG Booth size validated: 123.0
+2025-12-29 16:11:50,263 [MainController] DEBUG Booth cost validated: 123.0
+2025-12-29 16:11:50,287 [MainController] INFO Booth created successfully: has (Size: 123.0, Cost: 123.0)
+2025-12-29 16:19:53,070 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:19:53,072 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:19:53,072 [MainController] DEBUG Displaying main menu
+2025-12-29 16:19:53,435 [MainController] INFO User selected Sign In option
+2025-12-29 16:19:56,612 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:19:59,644 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:19:59,644 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:19:59,644 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:19:59,644 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:19:59,644 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:19:59,644 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:20:01,038 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:20:02,291 [MainController] ERROR Invalid event number entered: 0
+2025-12-29 16:20:04,987 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:22:45,018 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:22:45,020 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:22:45,020 [MainController] DEBUG Displaying main menu
+2025-12-29 16:23:01,022 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:23:01,025 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:23:01,025 [MainController] DEBUG Displaying main menu
+2025-12-29 16:23:02,691 [MainController] INFO User selected Sign In option
+2025-12-29 16:23:10,894 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:23:10,896 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:23:10,896 [MainController] DEBUG Displaying main menu
+2025-12-29 16:23:12,443 [MainController] INFO User selected Sign In option
+2025-12-29 16:23:24,173 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:23:28,472 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:23:28,473 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:23:28,473 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:23:28,473 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:23:28,474 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:23:28,474 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:23:29,956 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:23:31,177 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:27:03,131 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:27:03,132 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:27:03,133 [MainController] DEBUG Displaying main menu
+2025-12-29 16:27:04,764 [MainController] INFO User selected Sign In option
+2025-12-29 16:27:10,493 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:27:12,770 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:27:12,770 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:27:12,771 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:27:12,771 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:27:12,771 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:27:12,771 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:27:14,607 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:27:15,469 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:28:53,506 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:28:53,507 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:28:53,507 [MainController] DEBUG Displaying main menu
+2025-12-29 16:28:56,510 [MainController] INFO User selected Sign In option
+2025-12-29 16:28:59,942 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:29:02,886 [MainController] WARN Invalid password for email: hari@zoho.com
+2025-12-29 16:29:02,886 [MainController] DEBUG Displaying main menu
+2025-12-29 16:29:06,489 [MainController] INFO User selected Sign In option
+2025-12-29 16:29:10,540 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:29:12,628 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:29:12,628 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:29:12,629 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:29:12,629 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:29:12,629 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:29:12,629 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:29:14,269 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:29:19,356 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:30:05,588 [MainController] DEBUG Organizer selected expense operations
+2025-12-29 16:30:07,171 [MainController] INFO Adding expense to event
+2025-12-29 16:30:10,910 [MainController] INFO Expense 'harii' added: $123.0
+2025-12-29 16:30:39,361 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:30:39,362 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:30:39,363 [MainController] DEBUG Displaying main menu
+2025-12-29 16:30:39,364 [MainController] INFO User selected Sign In option
+2025-12-29 16:30:42,717 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:30:44,423 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:30:44,424 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:30:44,424 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:30:44,424 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:30:44,424 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:30:44,424 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:30:45,886 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:30:46,950 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:44:53,658 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:44:53,659 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:44:53,659 [MainController] DEBUG Displaying main menu
+2025-12-29 16:44:53,668 [MainController] INFO User selected Sign In option
+2025-12-29 16:44:58,856 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:45:00,930 [MainController] WARN Invalid password for email: hari@zoho.com
+2025-12-29 16:45:00,930 [MainController] DEBUG Displaying main menu
+2025-12-29 16:45:02,425 [MainController] INFO User selected Sign In option
+2025-12-29 16:45:05,560 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:45:08,214 [MainController] WARN Invalid password for email: hari@zoho.com
+2025-12-29 16:45:08,214 [MainController] DEBUG Displaying main menu
+2025-12-29 16:45:09,199 [MainController] INFO User selected Sign In option
+2025-12-29 16:45:12,082 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:45:15,354 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:45:15,354 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:45:15,355 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:45:15,355 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:45:15,355 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:45:15,355 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:45:16,635 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 16:45:16,636 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 16:45:18,061 [MainController] DEBUG Event name entered: gas
+2025-12-29 16:45:20,000 [MainController] DEBUG Event Location entered: hasd
+2025-12-29 16:45:21,537 [MainController] DEBUG Event budget: 123.0
+2025-12-29 16:45:23,087 [MainController] DEBUG Event Category entered: asdf
+2025-12-29 16:45:24,632 [MainController] DEBUG Event People Count entered: 123
+2025-12-29 16:45:26,635 [MainController] ERROR Invalid date format entered: dsfd
+2025-12-29 16:45:33,031 [MainController] WARN Past date entered for event: 2020-11-11
+2025-12-29 16:45:38,028 [MainController] ERROR Invalid date format entered: 202932
+2025-12-29 16:45:41,928 [MainController] DEBUG Event date validated: 2029-11-11
+2025-12-29 16:45:41,928 [MainController] DEBUG Event object created: gas (Venue: hasd, Capacity: 123)
+2025-12-29 16:45:41,957 [MainController] INFO Event 'gas' added to database successfully with ID: 49
+2025-12-29 16:45:41,957 [MainController] INFO Event creation completed: gas
+2025-12-29 16:45:41,957 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:49:05,074 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:49:06,456 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:54:07,319 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:54:07,320 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:54:07,321 [MainController] DEBUG Displaying main menu
+2025-12-29 16:54:07,893 [MainController] INFO User selected Sign In option
+2025-12-29 16:54:11,634 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:54:14,368 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:54:14,369 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:54:14,369 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:54:14,369 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:54:14,369 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:54:14,369 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:54:19,960 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:54:21,300 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:55:15,634 [MainController] WARN Past date entered for event: 2020-11-11
+2025-12-29 16:55:19,127 [MainController] ERROR Invalid date format entered: 202we
+2025-12-29 16:55:20,039 [MainController] ERROR Invalid date format entered: dsf
+2025-12-29 16:55:29,875 [MainController] DEBUG Event date validated: 2030-11-11
+2025-12-29 16:56:38,289 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 16:56:38,291 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 16:56:38,291 [MainController] DEBUG Displaying main menu
+2025-12-29 16:56:39,680 [MainController] INFO User selected Sign In option
+2025-12-29 16:56:42,678 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 16:56:44,815 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 16:56:44,816 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 16:56:44,816 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 16:56:44,817 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 16:56:44,817 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 16:56:44,817 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 16:56:46,632 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 16:56:47,777 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 16:56:54,881 [MainController] ERROR Invalid date format entered: dwae
+2025-12-29 16:57:00,052 [MainController] DEBUG Event date validated: 2030-11-11
+2025-12-29 17:03:11,539 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 17:03:11,542 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 17:03:11,542 [MainController] DEBUG Displaying main menu
+2025-12-29 17:03:11,544 [MainController] INFO User selected Sign In option
+2025-12-29 17:03:15,947 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 17:03:20,152 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 17:03:20,153 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 17:03:20,153 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 17:03:20,154 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 17:03:20,154 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 17:03:20,154 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 17:03:21,934 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 17:03:23,793 [MainController] DEBUG Event selected for modification: 1
+2025-12-29 17:03:48,530 [MainController] ERROR Invalid date format entered: 
+2025-12-29 17:03:54,051 [MainController] DEBUG Event date validated: 2029-11-11
+2025-12-29 17:08:02,946 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 17:08:02,947 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 17:08:02,947 [MainController] DEBUG Displaying main menu
+2025-12-29 17:08:57,156 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 17:08:57,158 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 17:08:57,158 [MainController] DEBUG Displaying main menu
+2025-12-29 17:08:57,621 [MainController] INFO User selected Sign In option
+2025-12-29 17:09:01,966 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 17:09:05,184 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 17:09:05,184 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 17:09:05,185 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 17:09:05,185 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 17:09:05,185 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 17:09:05,185 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 17:09:07,423 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 17:09:08,950 [MainController] DEBUG Event selected for modification: 2
+2025-12-29 17:09:31,538 [MainController] DEBUG Event date validated: 2078-11-11
+2025-12-29 17:09:41,149 [MainController] ERROR Organizer Selected Invalid Input In Booth operation
+2025-12-29 17:09:50,410 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 17:09:55,786 [MainController] DEBUG Displaying main menu
+2025-12-29 17:11:54,863 [MainController] INFO ====== Event Management System Started ======
+2025-12-29 17:11:54,865 [MainController] INFO Initialized MainController and loaded data
+2025-12-29 17:11:54,865 [MainController] DEBUG Displaying main menu
+2025-12-29 17:11:56,772 [MainController] INFO User selected Sign In option
+2025-12-29 17:14:42,869 [MainController] DEBUG Login attempt for email: 1
+2025-12-29 17:14:42,869 [MainController] WARN Login failed - user not found: 1
+2025-12-29 17:14:42,869 [MainController] DEBUG Displaying main menu
+2025-12-29 17:14:45,899 [MainController] INFO User selected Sign In option
+2025-12-29 17:14:51,959 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-29 17:14:54,997 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-29 17:14:54,998 [MainController] DEBUG Found organizer with ID: 14
+2025-12-29 17:14:54,998 [MainController] INFO Organizer: hari@zoho.com Logined Sucessfully
+2025-12-29 17:14:54,998 [MainController] TRACE hari@zoho.com Logined Sucessfully
+2025-12-29 17:14:54,998 [MainController] INFO Organizer menu accessed by: hari@zoho.com
+2025-12-29 17:14:54,998 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 17:15:00,474 [MainController] INFO Organizer hari@zoho.com viewing all events
+2025-12-29 17:15:00,474 [MainController] DEBUG Event count: 2
+2025-12-29 17:15:00,498 [MainController] TRACE hari@zoho.com Viewed All Events
+2025-12-29 17:15:00,498 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 17:15:04,172 [MainController] INFO Organizer hari@zoho.com starting to create new event
+2025-12-29 17:15:04,173 [MainController] TRACE Organizer Started Creating Event...
+2025-12-29 17:15:07,864 [MainController] DEBUG Event name entered: ee
+2025-12-29 17:15:09,349 [MainController] DEBUG Event Location entered: rr
+2025-12-29 17:15:13,589 [MainController] DEBUG Event budget: 2000.0
+2025-12-29 17:15:21,003 [MainController] DEBUG Event Category entered: Sample
+2025-12-29 17:15:23,889 [MainController] DEBUG Event People Count entered: 25
+2025-12-29 17:15:33,510 [MainController] ERROR Invalid date format entered: 2025-12-35
+2025-12-29 17:15:44,027 [MainController] DEBUG Event date validated: 2025-12-30
+2025-12-29 17:15:44,027 [MainController] DEBUG Event object created: ee (Venue: rr, Capacity: 25)
+2025-12-29 17:15:44,060 [MainController] INFO Event 'ee' added to database successfully with ID: 50
+2025-12-29 17:15:44,060 [MainController] INFO Event creation completed: ee
+2025-12-29 17:15:44,060 [MainController] DEBUG Displaying organizer menu options
+2025-12-29 17:15:59,674 [MainController] INFO Organizer hari@zoho.com accessing modify event menu
+2025-12-29 17:16:07,687 [MainController] DEBUG Event selected for modification: 3
+2025-12-29 17:16:24,618 [MainController] DEBUG Event date validated: 2025-12-30
+2025-12-29 17:16:54,270 [MainController] DEBUG Organizer selected booth operations
+2025-12-29 17:16:59,051 [MainController] DEBUG Viewing all booths for event
+2025-12-29 17:16:59,052 [MainController] TRACE Organizer Viewed All Booths
+2025-12-29 17:17:03,026 [MainController] INFO Adding new booth to event
+2025-12-29 17:17:07,478 [MainController] DEBUG Booth size validated: 20.0
+2025-12-29 17:17:10,453 [MainController] DEBUG Booth cost validated: 30000.0
+2025-12-29 17:17:10,477 [MainController] INFO Booth created successfully: sss (Size: 20.0, Cost: 30000.0)
+2025-12-29 17:17:14,003 [MainController] INFO Updating existing booth
+2025-12-29 17:17:18,048 [MainController] DEBUG Selected booth 1 for update
+2025-12-29 17:17:26,732 [MainController] DEBUG Booth size updated from 20.0 to 40.0
+2025-12-29 17:17:31,462 [MainController] INFO Booth 'SSSS' updated in database
+2025-12-29 17:17:31,462 [MainController] INFO Booth SSSS Updated Sucessfully
+2025-12-29 17:17:35,590 [MainController] DEBUG Viewing all booths for event
+2025-12-29 17:17:35,592 [MainController] TRACE Organizer Viewed All Booths
+2025-12-29 17:17:41,191 [MainController] INFO Deleting booth from event
+2025-12-29 17:17:45,028 [MainController] DEBUG Selected booth 1 for deletion
+2025-12-29 17:17:47,119 [MainController] INFO Booth deletion cancelled
+2025-12-29 17:17:49,018 [MainController] DEBUG Viewing all booths for event
+2025-12-29 17:17:49,019 [MainController] TRACE Organizer Viewed All Booths
+2025-12-29 17:17:51,690 [MainController] TRACE Organizer Exited From Booth
+2025-12-29 17:17:53,778 [MainController] DEBUG Organizer selected session operations
+2025-12-29 17:17:55,603 [MainController] INFO Viewing All Sessions
+2025-12-29 17:17:55,605 [MainController] INFO Viewed All Sessions
+2025-12-29 17:17:58,152 [MainController] INFO Adding new session to event
+2025-12-29 17:18:09,746 [MainController] INFO Session 's1' added to event
+2025-12-29 17:18:18,989 [MainController] INFO Session 's2' added to event
+2025-12-29 17:18:23,175 [MainController] INFO Viewing All Sessions
+2025-12-29 17:18:23,176 [MainController] INFO Viewed All Sessions
+2025-12-29 17:18:34,183 [MainController] INFO Updating existing session
+2025-12-29 17:19:11,349 [MainController] INFO Viewing All Sessions
+2025-12-29 17:19:11,350 [MainController] INFO Viewed All Sessions
+2025-12-29 17:19:18,486 [MainController] INFO Adding new session to event
+2025-12-29 17:19:22,865 [MainController] INFO Session 's3' added to event
+2025-12-29 17:19:30,132 [MainController] INFO Viewing All Sessions
+2025-12-29 17:19:30,134 [MainController] INFO Viewed All Sessions
+2025-12-29 17:20:32,915 [MainController] DEBUG Organizer selected expense operations
+2025-12-29 17:20:39,545 [MainController] DEBUG Organizer selected ticket operations
+2025-12-29 17:20:44,829 [MainController] TRACE Viewing Available Tickets
+2025-12-29 17:20:44,830 [MainController] TRACE Viewed Available Tickets
+2025-12-29 17:20:47,898 [MainController] TRACE Entered To update Ticket Price
+2025-12-29 17:21:50,969 [MainController] INFO Ticket price updated to $200.0 for event 'ee'
+2025-12-29 17:21:54,519 [MainController] TRACE Viewing Ticket Price
+2025-12-29 17:21:54,520 [MainController] INFO Viewed Ticket Price
+2025-12-29 17:21:58,886 [MainController] TRACE Entered To update Ticket Count
+2025-12-29 17:22:00,514 [MainController] INFO Ticket Count updated to $40 for event 'ee'
+2025-12-31 10:36:33,156 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 10:36:33,158 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 10:36:33,158 [MainController] DEBUG Displaying main menu
+2025-12-31 10:38:10,912 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 10:38:10,914 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 10:38:10,914 [MainController] DEBUG Displaying main menu
+2025-12-31 10:38:22,984 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 10:38:22,987 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 10:38:22,987 [MainController] DEBUG Displaying main menu
+2025-12-31 10:42:58,838 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 10:42:58,839 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 10:42:58,840 [MainController] DEBUG Displaying main menu
+2025-12-31 10:43:01,084 [MainController] INFO User selected Sign In option
+2025-12-31 10:43:02,545 [MainController] DEBUG Login attempt for email: d
+2025-12-31 10:43:02,546 [MainController] WARN Login failed - user not found: d
+2025-12-31 10:43:02,546 [MainController] DEBUG Displaying main menu
+2025-12-31 10:43:04,263 [MainController] INFO User selected Sign Up option
+2025-12-31 10:43:11,302 [MainController] DEBUG Name validation passed: hari@gmail.com
+2025-12-31 10:43:15,925 [MainController] WARN Email validation failed: Test@123
+2025-12-31 10:43:22,789 [MainController] WARN Email already exists during signup: hari@gmail.com
+2025-12-31 10:43:22,789 [MainController] DEBUG Displaying main menu
+2025-12-31 10:43:24,804 [MainController] INFO User selected Sign Up option
+2025-12-31 10:43:28,361 [MainController] DEBUG Name validation passed: kowsik
+2025-12-31 10:43:35,535 [MainController] DEBUG Email validation passed: kowsik@zoho.com
+2025-12-31 10:43:38,688 [MainController] DEBUG Password validation passed
+2025-12-31 10:43:40,262 [MainController] DEBUG Role selected: user
+2025-12-31 10:43:40,409 [MainController] INFO New account created successfully: kowsik (kowsik@zoho.com) as user
+2025-12-31 10:43:40,434 [MainController] DEBUG User data written to database
+2025-12-31 10:43:40,434 [MainController] DEBUG Displaying main menu
+2025-12-31 10:44:52,617 [MainController] INFO User selected Sign In option
+2025-12-31 10:45:02,757 [MainController] DEBUG Login attempt for email: kowsik@zoho.com
+2025-12-31 10:45:06,688 [MainController] INFO User authentication successful: kowsik@zoho.com
+2025-12-31 10:45:06,689 [MainController] INFO User: kowsik Logined Sucessfully
+2025-12-31 10:45:06,689 [MainController] INFO User menu accessed by: kowsik
+2025-12-31 10:45:06,689 [MainController] DEBUG User kowsik viewing organizer list
+2025-12-31 10:45:10,759 [MainController] DEBUG User entered organizer choice: 1
+2025-12-31 10:45:10,759 [MainController] INFO User kowsik selected organizer: hari@zoho.com (Org ID: 14)
+2025-12-31 10:46:48,381 [MainController] DEBUG User entered event number: 0
+2025-12-31 10:46:48,381 [MainController] DEBUG User returning to organizer selection
+2025-12-31 10:46:48,381 [MainController] DEBUG Displaying main menu
+2025-12-31 10:57:52,954 [MainController] INFO User selected Sign In option
+2025-12-31 10:58:06,160 [MainController] DEBUG Login attempt for email: kowsik@zoho.com
+2025-12-31 10:58:08,672 [MainController] INFO User authentication successful: kowsik@zoho.com
+2025-12-31 10:58:08,672 [MainController] INFO User: kowsik Logined Sucessfully
+2025-12-31 10:58:08,672 [MainController] INFO User menu accessed by: kowsik
+2025-12-31 10:58:08,672 [MainController] DEBUG User kowsik viewing organizer list
+2025-12-31 10:58:19,337 [MainController] DEBUG User entered organizer choice: 0
+2025-12-31 10:58:19,337 [MainController] INFO User kowsik logged out from organizer selection
+2025-12-31 10:58:19,337 [MainController] DEBUG Displaying main menu
+2025-12-31 10:58:20,882 [MainController] INFO User selected Sign In option
+2025-12-31 10:58:25,882 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-31 10:58:39,564 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 10:58:39,565 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 10:58:39,565 [MainController] DEBUG Displaying main menu
+2025-12-31 10:58:40,831 [MainController] INFO User selected Sign In option
+2025-12-31 10:58:46,608 [MainController] DEBUG Login attempt for email: kowsik@zoho.com
+2025-12-31 10:58:46,608 [MainController] WARN Login failed - user not found: kowsik@zoho.com
+2025-12-31 10:58:46,609 [MainController] DEBUG Displaying main menu
+2025-12-31 11:00:03,330 [MainController] INFO User selected Sign Up option
+2025-12-31 11:00:16,987 [MainController] DEBUG Name validation passed: Harihara Suthan
+2025-12-31 11:00:23,403 [MainController] DEBUG Email validation passed: hari@zoho.com
+2025-12-31 11:00:28,193 [MainController] DEBUG Password validation passed
+2025-12-31 11:00:29,489 [MainController] DEBUG Role selected: organizer
+2025-12-31 11:00:29,551 [MainController] INFO New account created successfully: Harihara Suthan (hari@zoho.com) as organizer
+2025-12-31 11:00:29,573 [MainController] DEBUG User data written to database
+2025-12-31 11:00:29,574 [MainController] DEBUG Displaying main menu
+2025-12-31 11:00:30,917 [MainController] INFO User selected Sign In option
+2025-12-31 11:00:37,558 [MainController] DEBUG Login attempt for email: hari@zoho.com
+2025-12-31 11:00:40,130 [MainController] INFO User authentication successful: hari@zoho.com
+2025-12-31 11:00:40,130 [MainController] DEBUG Found organizer with ID: 21
+2025-12-31 11:00:40,130 [MainController] INFO Organizer: Harihara Suthan Logined Sucessfully
+2025-12-31 11:00:40,130 [MainController] TRACE Harihara Suthan Logined Sucessfully
+2025-12-31 11:00:40,130 [MainController] INFO Organizer menu accessed by: Harihara Suthan
+2025-12-31 11:00:40,130 [MainController] DEBUG Displaying organizer menu options
+2025-12-31 11:01:05,412 [MainController] INFO Organizer Harihara Suthan viewing all events
+2025-12-31 11:01:05,413 [MainController] DEBUG Event count: 0
+2025-12-31 11:01:05,413 [MainController] TRACE Harihara Suthan Viewed All Events
+2025-12-31 11:01:05,413 [MainController] DEBUG Displaying organizer menu options
+2025-12-31 11:02:51,007 [MainController] INFO Organizer Harihara Suthan viewing all events
+2025-12-31 11:02:51,008 [MainController] DEBUG Event count: 0
+2025-12-31 11:02:51,008 [MainController] TRACE Harihara Suthan Viewed All Events
+2025-12-31 11:02:51,008 [MainController] DEBUG Displaying organizer menu options
+2025-12-31 11:02:52,485 [MainController] INFO Organizer Harihara Suthan starting to create new event
+2025-12-31 11:02:52,485 [MainController] TRACE Organizer Started Creating Event...
+2025-12-31 11:05:38,700 [MainController] DEBUG Event name entered: Tech Connect 2025
+2025-12-31 11:06:10,576 [MainController] DEBUG Event Location entered: Tenkasi
+2025-12-31 11:06:23,627 [MainController] DEBUG Event budget: 500000.0
+2025-12-31 12:25:32,905 [MainController] DEBUG Event Category entered: Technology Conference
+2025-12-31 12:25:44,487 [MainController] DEBUG Event People Count entered: 300
+2025-12-31 12:26:01,635 [MainController] WARN Past date entered for event: 2025-08-15
+2025-12-31 12:26:34,976 [MainController] DEBUG Event date validated: 2026-01-15
+2025-12-31 12:26:34,977 [MainController] DEBUG Event object created: Tech Connect 2025 (Venue: Tenkasi, Capacity: 300)
+2025-12-31 12:26:35,007 [MainController] INFO Event 'Tech Connect 2025' added to database successfully with ID: 51
+2025-12-31 12:26:35,007 [MainController] INFO Event creation completed: Tech Connect 2025
+2025-12-31 12:26:35,007 [MainController] DEBUG Displaying organizer menu options
+2025-12-31 12:26:41,640 [MainController] INFO Organizer Harihara Suthan accessing modify event menu
+2025-12-31 12:26:45,438 [MainController] DEBUG Event selected for modification: 1
+2025-12-31 12:26:47,055 [MainController] DEBUG Organizer selected booth operations
+2025-12-31 12:26:49,213 [MainController] INFO Adding new booth to event
+2025-12-31 12:27:19,924 [MainController] DEBUG Booth size validated: 150.0
+2025-12-31 12:27:33,449 [MainController] DEBUG Booth cost validated: 50000.0
+2025-12-31 12:27:33,472 [MainController] INFO Booth created successfully: Innovation Hub (Size: 150.0, Cost: 50000.0)
+2025-12-31 12:27:39,132 [MainController] INFO Adding new booth to event
+2025-12-31 12:28:15,593 [MainController] DEBUG Booth size validated: 200.0
+2025-12-31 12:28:19,082 [MainController] DEBUG Booth cost validated: 20000.0
+2025-12-31 12:28:19,104 [MainController] INFO Booth created successfully: Future Tech Zone (Size: 200.0, Cost: 20000.0)
+2025-12-31 12:28:23,953 [MainController] TRACE Organizer Exited From Booth
+2025-12-31 12:28:25,433 [MainController] DEBUG Organizer selected session operations
+2025-12-31 12:28:26,849 [MainController] INFO Viewing All Sessions
+2025-12-31 12:28:26,858 [MainController] INFO Viewed All Sessions
+2025-12-31 12:28:31,591 [MainController] INFO Adding new session to event
+2025-12-31 12:29:10,673 [MainController] INFO Session 'Tech Talks & Innovation Workshops' added to event
+2025-12-31 12:31:44,389 [MainController] INFO Session 'Networking & Collaboration Session' added to event
+2025-12-31 12:32:06,594 [MainController] INFO Session 'Startup Pitch Showcase' added to event
+2025-12-31 12:32:30,672 [MainController] INFO Session 'AI & Robotics Demonstration' added to event
+2025-12-31 12:32:33,304 [MainController] INFO Viewing All Sessions
+2025-12-31 12:32:33,305 [MainController] INFO Viewed All Sessions
+2025-12-31 12:32:47,316 [MainController] DEBUG Organizer selected speaker operations
+2025-12-31 12:32:48,902 [MainController] INFO Adding speaker to session
+2025-12-31 12:34:11,986 [MainController] INFO Speaker 'Dr. Ananya Rajan' assigned to session
+2025-12-31 12:34:21,697 [MainController] INFO Adding speaker to session
+2025-12-31 12:34:41,289 [MainController] INFO Adding speaker to session
+2025-12-31 12:35:09,686 [MainController] INFO Speaker 'Mr. Rajesh Kumar' assigned to session
+2025-12-31 12:35:11,137 [MainController] INFO Adding speaker to session
+2025-12-31 12:35:48,005 [MainController] INFO Speaker 'Ms. Meera Iyer' assigned to session
+2025-12-31 12:35:51,644 [MainController] INFO Adding speaker to session
+2025-12-31 12:36:17,992 [MainController] INFO Speaker 'Dr. Arjun Menon' assigned to session
+2025-12-31 12:36:21,914 [MainController] DEBUG Organizer selected sponsor operations
+2025-12-31 12:36:23,994 [MainController] INFO Adding sponsor to event
+2025-12-31 12:36:56,158 [MainController] INFO Sponsor 'InnovateX Solutions' added with amount $100000.0
+2025-12-31 12:36:58,530 [MainController] INFO Adding sponsor to event
+2025-12-31 12:37:05,715 [MainController] INFO Sponsor 'Zoho' added with amount $200000.0
+2025-12-31 12:37:08,793 [MainController] INFO Adding sponsor to event
+2025-12-31 12:38:10,265 [MainController] INFO Sponsor 'FutureTech Labs' added with amount $150000.0
+2025-12-31 12:38:15,295 [MainController] DEBUG Organizer selected expense operations
+2025-12-31 12:38:18,596 [MainController] INFO Adding expense to event
+2025-12-31 12:39:08,396 [MainController] INFO Expense 'Venue Rental' added: $150000.0
+2025-12-31 12:39:13,323 [MainController] INFO Adding expense to event
+2025-12-31 12:39:29,729 [MainController] INFO Expense 'Catering & Refreshments' added: $50000.0
+2025-12-31 12:39:30,972 [MainController] INFO Adding expense to event
+2025-12-31 12:40:03,996 [MainController] INFO Expense 'Audio & Visual Equipment' added: $80000.0
+2025-12-31 12:40:06,225 [MainController] TRACE Viewing All Expenses
+2025-12-31 12:40:06,227 [MainController] TRACE Viewed All Expenses
+2025-12-31 12:40:18,583 [MainController] DEBUG Organizer selected ticket operations
+2025-12-31 12:40:20,838 [MainController] TRACE Viewing Available Tickets
+2025-12-31 12:40:20,839 [MainController] TRACE Viewed Available Tickets
+2025-12-31 12:41:08,175 [MainController] TRACE Entered To update Ticket Price
+2025-12-31 12:41:10,107 [MainController] INFO Ticket price updated to $200.0 for event 'Tech Connect 2025'
+2025-12-31 12:41:13,747 [MainController] TRACE Viewing Ticket Price
+2025-12-31 12:41:13,750 [MainController] INFO Viewed Ticket Price
+2025-12-31 12:41:18,671 [MainController] DEBUG Displaying organizer menu options
+2025-12-31 12:41:20,078 [MainController] DEBUG Displaying main menu
+2025-12-31 12:41:23,197 [MainController] INFO User selected Sign Up option
+2025-12-31 12:41:29,815 [MainController] DEBUG Name validation passed: user@gmail.com
+2025-12-31 12:41:34,687 [MainController] WARN Email validation failed: 
+2025-12-31 12:41:35,830 [MainController] WARN Email validation failed: d
+2025-12-31 12:41:36,894 [MainController] WARN Email validation failed: 
+2025-12-31 12:41:54,681 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 12:41:54,683 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 12:41:54,683 [MainController] DEBUG Displaying main menu
+2025-12-31 12:42:15,812 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 12:42:15,817 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 12:42:15,818 [MainController] DEBUG Displaying main menu
+2025-12-31 12:42:15,820 [MainController] INFO User selected Sign In option
+2025-12-31 12:42:19,867 [MainController] DEBUG Login attempt for email: s
+2025-12-31 12:42:19,868 [MainController] WARN Login failed - user not found: s
+2025-12-31 12:42:19,868 [MainController] DEBUG Displaying main menu
+2025-12-31 12:42:21,338 [MainController] INFO User selected Sign Up option
+2025-12-31 12:42:27,740 [MainController] DEBUG Name validation passed: Kowsik
+2025-12-31 12:42:35,365 [MainController] DEBUG Email validation passed: kowsik@gmail.com
+2025-12-31 12:42:45,338 [MainController] DEBUG Password validation passed
+2025-12-31 12:42:46,731 [MainController] DEBUG Role selected: user
+2025-12-31 12:42:46,841 [MainController] INFO New account created successfully: Kowsik (kowsik@gmail.com) as user
+2025-12-31 12:42:46,857 [MainController] DEBUG User data written to database
+2025-12-31 12:42:46,857 [MainController] DEBUG Displaying main menu
+2025-12-31 12:42:48,522 [MainController] INFO User selected Sign In option
+2025-12-31 12:42:53,091 [MainController] DEBUG Login attempt for email: kowsik@123
+2025-12-31 12:42:53,091 [MainController] WARN Login failed - user not found: kowsik@123
+2025-12-31 12:42:53,092 [MainController] DEBUG Displaying main menu
+2025-12-31 12:42:55,772 [MainController] INFO User selected Sign In option
+2025-12-31 12:43:01,300 [MainController] DEBUG Login attempt for email: kowsik@gmail.com
+2025-12-31 12:43:07,550 [MainController] INFO User authentication successful: kowsik@gmail.com
+2025-12-31 12:43:07,550 [MainController] INFO User: Kowsik Logined Sucessfully
+2025-12-31 12:43:07,551 [MainController] INFO User menu accessed by: Kowsik
+2025-12-31 12:43:07,551 [MainController] DEBUG User Kowsik viewing organizer list
+2025-12-31 12:43:10,768 [MainController] DEBUG User entered organizer choice: 1
+2025-12-31 12:43:10,768 [MainController] INFO User Kowsik selected organizer: Harihara Suthan (Org ID: 21)
+2025-12-31 12:43:13,044 [MainController] DEBUG User entered event number: 1
+2025-12-31 12:43:13,044 [MainController] INFO User Kowsik selected event: 'Tech Connect 2025' (Event ID: 51)
+2025-12-31 12:43:14,663 [MainController] TRACE User 'Kowsik' viewing sessions for event 'Tech Connect 2025' (Event ID: 51) from organizer 'Harihara Suthan' (Org ID: 21)
+2025-12-31 12:47:25,514 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 12:47:25,516 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 12:47:25,516 [MainController] DEBUG Displaying main menu
+2025-12-31 12:47:25,912 [MainController] INFO User selected Sign In option
+2025-12-31 12:47:33,146 [MainController] DEBUG Login attempt for email: kowsik@gmail.com
+2025-12-31 12:47:37,466 [MainController] INFO User authentication successful: kowsik@gmail.com
+2025-12-31 12:47:37,467 [MainController] INFO User: Kowsik Logined Sucessfully
+2025-12-31 12:47:37,467 [MainController] INFO User menu accessed by: Kowsik
+2025-12-31 12:47:37,468 [MainController] DEBUG User Kowsik viewing organizer list
+2025-12-31 12:47:38,626 [MainController] DEBUG User entered organizer choice: 1
+2025-12-31 12:47:38,627 [MainController] INFO User Kowsik selected organizer: Harihara Suthan (Org ID: 21)
+2025-12-31 12:47:39,973 [MainController] DEBUG User entered event number: 1
+2025-12-31 12:47:39,973 [MainController] INFO User Kowsik selected event: 'Tech Connect 2025' (Event ID: 51)
+2025-12-31 12:47:41,168 [MainController] TRACE User 'Kowsik' viewing sessions for event 'Tech Connect 2025' (Event ID: 51) from organizer 'Harihara Suthan' (Org ID: 21)
+2025-12-31 12:48:07,549 [MainController] INFO ====== Event Management System Started ======
+2025-12-31 12:48:07,551 [MainController] INFO Initialized MainController and loaded data
+2025-12-31 12:48:07,551 [MainController] DEBUG Displaying main menu
+2025-12-31 12:48:20,868 [MainController] INFO User selected Sign In option
+2025-12-31 12:48:27,443 [MainController] DEBUG Login attempt for email: kowsik@gmail.com
+2025-12-31 12:48:49,200 [MainController] INFO User authentication successful: kowsik@gmail.com
+2025-12-31 12:48:49,201 [MainController] INFO User: Kowsik Logined Sucessfully
+2025-12-31 12:48:49,201 [MainController] INFO User menu accessed by: Kowsik
+2025-12-31 12:48:49,202 [MainController] DEBUG User Kowsik viewing organizer list
+2025-12-31 12:48:50,387 [MainController] DEBUG User entered organizer choice: 1
+2025-12-31 12:48:50,387 [MainController] INFO User Kowsik selected organizer: Harihara Suthan (Org ID: 21)
+2025-12-31 12:48:51,124 [MainController] DEBUG User entered event number: 1
+2025-12-31 12:48:51,124 [MainController] INFO User Kowsik selected event: 'Tech Connect 2025' (Event ID: 51)
+2025-12-31 12:48:52,056 [MainController] TRACE User 'Kowsik' viewing sessions for event 'Tech Connect 2025' (Event ID: 51) from organizer 'Harihara Suthan' (Org ID: 21)
+2025-12-31 12:48:59,857 [MainController] TRACE User 'Kowsik' viewing speakers for event 'Tech Connect 2025' (Event ID: 51) from organizer 'Harihara Suthan' (Org ID: 21)
+2025-12-31 12:49:03,857 [MainController] TRACE User 'Kowsik' viewing sponsors for event 'Tech Connect 2025' (Event ID: 51) from organizer 'Harihara Suthan' (Org ID: 21)
+2025-12-31 12:49:10,747 [MainController] TRACE User 'Kowsik' viewing booths for event 'Tech Connect 2025' (Event ID: 51) from organizer 'Harihara Suthan' (Org ID: 21)
+2025-12-31 12:49:14,900 [MainController] INFO User 'Kowsik' attempting to purchase tickets for event 'Tech Connect 2025' (Event ID: 51) from organizer 'Harihara Suthan' (Org ID: 21)
+2025-12-31 12:49:14,904 [MainController] DEBUG Displaying available ticket information to user
+2025-12-31 12:49:14,904 [MainController] INFO Available tickets for event 'Tech Connect 2025': 300, Ticket price: $200.0
+2025-12-31 12:49:14,906 [MainController] DEBUG Payment object created with amount: $200.0
+2025-12-31 12:49:17,269 [MainController] DEBUG User entered ticket quantity: 1
+2025-12-31 12:49:17,270 [MainController] INFO Valid ticket count selected: 1
+2025-12-31 12:49:17,270 [MainController] DEBUG Ticket purchase calculation - Quantity: 1, Unit Price: $200.0, Total: $200.0
+2025-12-31 12:49:19,495 [MainController] DEBUG User entered payment amount: $200 (Required: $200.0)
+2025-12-31 12:49:19,495 [MainController] DEBUG Removing 1 tickets from available pool
+2025-12-31 12:49:19,496 [MainController] INFO Payment processed successfully - Amount: $200.0, Tickets: 1
+2025-12-31 12:49:19,531 [MainController] INFO TICKET PURCHASE COMPLETED - User: 'Kowsik', Event: 'Tech Connect 2025', Tickets: 1, Total Amount: $200.0
+2025-12-31 12:49:19,531 [MainController] DEBUG Ticket added to user account, ticket count updated in database
+2025-12-31 12:49:21,496 [MainController] DEBUG User Kowsik exiting event menu for organizer Harihara Suthan
+2025-12-31 12:49:21,497 [MainController] DEBUG User Kowsik viewing organizer list
+2025-12-31 12:51:31,520 [MainController] DEBUG User entered organizer choice: 0
+2025-12-31 12:51:31,521 [MainController] INFO User Kowsik logged out from organizer selection
+2025-12-31 12:51:31,521 [MainController] DEBUG Displaying main menu
+2025-12-31 12:51:40,549 [MainController] INFO User selected Exit option - Application shutting down
+2025-12-31 12:51:40,561 [MainController] INFO Database connection closed successfully
+2025-12-31 12:51:40,561 [MainController] INFO ====== Event Management System Shutdown ======

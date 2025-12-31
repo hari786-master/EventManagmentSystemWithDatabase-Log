@@ -3,8 +3,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.UUID;
 
-class Booth implements Serializable {
-    private static final long serialVersionUID = 2L;
+class Booth  {
 
     int boothId;
     double size;

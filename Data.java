@@ -99,6 +99,27 @@ public class Data {
     static final String UPDATE_TICKET_PRICE_QUERY =
             "UPDATE Events SET Ticket_Price = ? WHERE Event_ID = ?";
 
+    //UPDATE NAME IN EVENTS
+    static final String UPDATE_EVENT_NAME_QUERY =
+            "UPDATE Events SET Name = ? WHERE Event_ID = ?";
+
+    //UPDATE CATEGORY IN EVENTS
+    static final String UPDATE_EVENT_CATEGORY_QUERY =
+            "UPDATE Events SET Category = ? WHERE Event_ID = ?";
+
+    //UPDATE LOCATION IN EVENTS
+    static final String UPDATE_EVENT_LOCATION_QUERY =
+            "UPDATE Events SET Location = ? WHERE Event_ID = ?";
+
+    //UPDATE DATE IN EVENTS
+    static final String UPDATE_EVENT_DATE_QUERY =
+            "UPDATE Events SET Event_Date = ? WHERE Event_ID = ?";
+
+    //UPDATE BUDGET IN EVENTS
+    static final String UPDATE_EVENT_BUDGET_QUERY =
+            "UPDATE Events SET Budget = ? WHERE Event_ID = ?";
+
+
 
 // ==================== DELETE QUERIES ====================
 

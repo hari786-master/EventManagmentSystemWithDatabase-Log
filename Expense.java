@@ -5,8 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-class Expense implements Serializable {
-    private static final long serialVersionUID = 2L;
+class Expense  {
 
     String description;
     double amount;

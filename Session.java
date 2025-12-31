@@ -61,17 +61,17 @@ class Session implements Serializable {
         StringBuilder result = new StringBuilder();
 
         result.append(
-                "\u001B[97m     ╭──────┬──────────────────────┬───────────────────────────────────────────────────────────┬──────────────────────╮\n");
+                "\u001B[97m     ╭──────┬──────────────────────┬───────────────────────────────────────────────────────────┬─────────────────────────────╮\n");
         result.append(
-                "     │ S.No │ Time                 │ Sessions scheduled                                        │ Speaker              │\n");
+                "     │ S.No │ Time                 │ Sessions scheduled                                        │ Speaker                     │\n");
         result.append(
-                "     ├──────┼──────────────────────┼───────────────────────────────────────────────────────────┼──────────────────────┤\n");
+                "     ├──────┼──────────────────────┼───────────────────────────────────────────────────────────┼─────────────────────────────┤\n");
 
         ArrayList<Session> sessions = organizer.get(orgIndex).events.get(eventNumber).schedule;
 
         if (sessions == null || sessions.isEmpty()) {
             result.append(
-                    "     │  --  │   --                 │ No sessions available                                     │        --            │\n");
+                    "     │  --  │   --                 │ No sessions available                                     │        --                   │\n");
         } else {
             int i = 0;
             for (Session s : sessions) {
@@ -81,16 +81,16 @@ class Session implements Serializable {
                         ? s.speaker.name + " (" + s.speaker.gender + ")"
                         : "Not Added Yet";
 
-                result.append(String.format("     │ %-5d│ %-20s │ %-57s │ %-20s │\n", i + 1, time, action, owner));
+                result.append(String.format("     │ %-5d│ %-20s │ %-57s │ %-27s │\n", i + 1, time, action, owner));
                 if (i++ != sessions.size() - 1) {
                     result.append(
-                            "     ├──────┼──────────────────────┼───────────────────────────────────────────────────────────┼──────────────────────┤\n");
+                            "     ├──────┼──────────────────────┼───────────────────────────────────────────────────────────┼─────────────────────────────┤\n");
                 }
             }
         }
 
         result.append(
-                "     ╰──────┴──────────────────────┴───────────────────────────────────────────────────────────┴──────────────────────╯\u001B[0m");
+                "     ╰──────┴──────────────────────┴───────────────────────────────────────────────────────────┴─────────────────────────────╯\u001B[0m");
         return result.toString();
     }
 
